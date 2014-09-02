@@ -5,6 +5,7 @@ authors: Alessandro Cosentino, Vincent Russo
 date: 2014-08-12 
 arxiv-id: 1307.3232
 categories: state-discrimination
+journal: Quantum Information & Computation, Vol.14 No.13 & 14, pp. 1098-1106 (2014)
 ---
 
 We study the problem of distinguishing quantum states using local operations

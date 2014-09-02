@@ -112,4 +112,4 @@ Misc
 ----
 &nbsp;
 :	- Global Representative of Italy at University of Waterloo
-	- Captain of Computer science grads soccer and futsal team for five seasons at University of Waterloo intramural league.  
+	- Captain of soccer and futsal team Hopeless Experts for five seasons at University of Waterloo

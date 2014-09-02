@@ -14,6 +14,7 @@ date: 2014-08-18 02:00:00 CET
       <li>
         <a class="paper-link" href="{{ paper.url | prepend: site.baseurl }}">{{ paper.title }}</a>
         <span class="paper-author">{{ paper.authors }}</span>
+        <span class="paper-journal">{{ paper.journal }}</span>
         <span class="paper-date">{{ paper.date | date: "%Y" }}</span>
       </li>
     {% endfor %}
