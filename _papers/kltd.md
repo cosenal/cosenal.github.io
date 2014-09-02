@@ -2,7 +2,7 @@
 layout: paper
 title: "Small sets of locally indistinguishable orthogonal maximally entangled states"
 authors: Alessandro Cosentino, Vincent Russo
-date: 2014-08-12 13:51:23
+date: 2014-08-12 
 arxiv-id: 1307.3232
 categories: state-discrimination
 ---

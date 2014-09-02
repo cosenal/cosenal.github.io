@@ -147,6 +147,29 @@ a:visited { color: #205caa; }
 
 .home p { margin-bottom: 10px; }
 
+.home blockquote {  padding: 20px 25px;
+    border-left: 5px solid #CCC;
+    margin-bottom: 24px;
+    background: none repeat scroll 0% 0% #EEE;
+    position: relative; 
+}
+
+.home blockquote:after {
+    bottom: 0px;
+    right: 10px;
+    content: "”";
+}
+
+.home .credit { text-align : right; page-break-before: avoid;
+   font-family:Verdana,Arial,Helvetica,sans-serif; }
+.home .credit small { font-size: 80%; } 
+
+.under-construction {
+    text-align: center;
+    font-size: 1.1em;
+    color: #808080;
+}
+
 /*.home blockquote {
     padding: 20px 25px;
     border-left: 5px solid #CCC;
@@ -171,8 +194,7 @@ a:visited { color: #205caa; }
     color: #CCC;
     font-size: 15px;
     /*position: absolute;*/
-}*/
-
+}
 
 .posts { list-style-type: none; }
 
@@ -486,14 +508,14 @@ a:visited { color: #205caa; }
 .papers li { margin-bottom: 30px; }
 
 .papers .paper-link {
-  font-size: 24px;
+  font-size: 18px;
   letter-spacing: -1px;
   line-height: 1;
 }
 
 .papers .paper-author {
   display: block;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .papers .paper-date {

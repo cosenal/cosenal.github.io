@@ -2,7 +2,7 @@
 layout: paper
 title: "Dequantizing read-once quantum formulas"
 authors: Alessandro Cosentino, Robin Kothari, Adam Paetznick
-date: 2013-04-18 13:00:00
+date: 2013-04-18
 arxiv-id: 1307.3232
 categories: complexity
 ---
