@@ -3,7 +3,7 @@ layout: paper
 title: "PPT-indistinguishable states via semidefinite programming"
 authors: Alessandro Cosentino
 date: 2012-05-04
-arxiv-id: 1205.1031
+arxiv: 1205.1031
 categories: state-discrimination
 journal: Phys. Rev. A 87, 012321 (2013) 
 ---

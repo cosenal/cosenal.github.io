@@ -3,7 +3,7 @@ layout: paper
 title: "Weight of quadratic forms and graph states"
 authors: Alessandro Cosentino, Simone Severini
 date: 2009-11-10
-arxiv-id: 0906.2488
+arxiv: 0906.2488
 categories: misc
 journal: Phys. Rev. A 80, 052309 (2009) 
 ---

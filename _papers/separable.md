@@ -3,7 +3,7 @@ layout: paper
 title: "Limitations on separable measurements by convex optimization"
 authors: Somshubhro Bandyopadhyay, Alessandro Cosentino, Nathaniel Johnston, Vincent Russo, John Watrous, Nengkun Yu
 date: 2014-08-29
-arxiv-id: 1408.6981
+arxiv: 1408.6981
 journal: preprint
 categories: complexity
 ---

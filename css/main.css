@@ -130,6 +130,9 @@ a:visited { color: #205caa; }
   top: 3px;
 }
 
+.site-footer .about {
+  font-size: small;
+}
 
 /* Page Content styles */
 /* ----------------------------------------------------------*/
@@ -168,6 +171,10 @@ a:visited { color: #205caa; }
     text-align: center;
     font-size: 1.1em;
     color: #808080;
+}
+
+.under-construction img {
+    opacity: 0.5;
 }
 
 /*.home blockquote {
