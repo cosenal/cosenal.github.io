@@ -2,7 +2,7 @@
 layout: resume
 title: Résumé
 permalink: /resume/
-date: 2014-08-18 02:00:00 CET
+date: 2014-09-03
 ---
 
 Education
@@ -36,12 +36,18 @@ Exchange programs
 Feb. '13 -- Apr. '13
 :	**Research intern**
 
-	with Prof. Magniez at LIAFA, Universite Paris Diderot (France)
-	mini-course on semidefinite programming in quantum information
+	with Prof. Frédéric Magniez at LIAFA, Université Paris Diderot (France), 
+	working on quantum query complexity.
+	
+	While at LIAFA, I helped organizing a mini-course on semidefinite programming in quantum information and
+	I was invited to speak at the Japan-France Workshop on Quantum Information.
 
 Sept. '07 -- Mar. '08
 :	**Exchange student**
 
+	[_Erasmus student_](http://en.wikipedia.org/wiki/Erasmus_Programme) at the Department of Computer Science, Aarhus University.
+
+	Here I approached the subject of Quantum Information Processing, thanks to the course taught by Ivan Damgård and Louis Salvail.
 
 Work Experience
 ---------------
@@ -49,29 +55,28 @@ Work Experience
 Summer 2012
 :	**Google Summer of Code student developer** 
 
-	Building 
+	Under the mentorship of Jakob Sack, I created the [ownCloud News](https://github.com/owncloud/news) app, 
+	a feed reader for [ownCloud](http://owncloud.org/). The app is among the highest rated apps on the ownCloud App store. I am still involved in the project, but currently it is most actively maintained by 
+	[Bernhard Posselt](https://github.com/Raydiation).     
 
-something on the lines of http://berkus.madfire.net/resume/en/
-
-Winter 2012 
+Jan. '12 -- Apr. '12, Sept. '12 -- Dec. '12
 :	**UNIX Consultant**
 
-	Help centre of the Math Faculty Computing Facility of the University of Waterloo
-
+	At the help centre of the Math Faculty Computing Facility of the University of Waterloo, assisting
+	students, faculty and staff with computer related problems.
+	
 Summer 2011
 :	**Season of KDE student developer**
 
-	Participated with the KDE PIM team, under the mentorship of Frank Osterfeld,
-	working on Akregator, the feed reader of KDE.
-
-	building an Akonadi resource 
+	Participated with the _KDE PIM_ team, under the mentorship of Frank Osterfeld,
+	working on Akregator, the feed reader shipped with KDE.
+	I built an [Akonadi](http://en.wikipedia.org/wiki/Akonadi) resource to store feeds locally.
 	
 
 Other Experience
 --------
 Summer 2014
 :	**[Outreach Program for Women][opw] mentor**
-	
 	
 	
 	the applicant Lyndsey Jane Moulds 
@@ -113,3 +118,4 @@ Misc
 &nbsp;
 :	- Global Representative of Italy at University of Waterloo
 	- Captain of soccer and futsal team Hopeless Experts for five seasons at University of Waterloo
+	- Parlo italiano
