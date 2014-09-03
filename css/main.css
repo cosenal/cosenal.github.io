@@ -471,41 +471,34 @@ a:visited { color: #205caa; }
   outline: 0;
 }
 
-/* Curriculum vitae */
-
-
-#cv h2 {
+#cv h1 {
+  font-size: 20px;
   color: #39C;
-  border-left: 0;
+  margin-bottom: 10px;
 }
 
-#cv a {
-  color: #000;
-}
-
-#cv h2:before {
+#cv h1:before {
   margin: 0 10px 0 0;
-  width: 135px;
+  width: 90px;
   height: 10px;
   display: inline-block;
   content: "";
   background-color: #39C;
 }
 
-#cv dt {
-  width: 135px;
-  margin-right: 10px;
-  float: left;
-  text-align: right;
+#cv h2 {
+  font-size: 20px;
+  font-weight: bold;
+  border-left: 0;
+  margin: 0 0 10px 100px;
 }
-#cv dd {
-  margin: 0 0 35px 145px;
+
+#cv p { 
+  margin: 0 0 10px 100px;
 }
-#cv p {
-  /*margin: 0 0 0px 0;*/
-}
-#cv ul {
-  margin-left: 20px;
+
+#cv a {
+  color: #000;
 }
 
 /* Papers */
