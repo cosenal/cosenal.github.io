@@ -36,11 +36,11 @@ Exchange programs
 Feb. '13 -- Apr. '13
 :	**Research intern**
 
-	with Prof. Frédéric Magniez at LIAFA, Université Paris Diderot (France), 
+	with Prof. Frédéric Magniez at LIAFA, Université Paris Diderot, 
 	working on quantum query complexity.
 	
 	While at LIAFA, I helped organizing a mini-course on semidefinite programming in quantum information and
-	I was invited to speak at the Japan-France Workshop on Quantum Information.
+	I was a speaker at the Japan-France Workshop on Quantum Information.
 
 Sept. '07 -- Mar. '08
 :	**Exchange student**
@@ -76,17 +76,18 @@ Summer 2011
 Other Experience
 --------
 Summer 2014
-:	**[Outreach Program for Women][opw] mentor**
+:	**[Outreach Program for Women][opw] mentor/coordinator**
 	
 	
-	the applicant Lyndsey Jane Moulds 
+	I mentored the applicant Lyndsey Jane Moulds with the project of
+	building a Firefox OS app that uploads pictures taken from the phone camera to ownCloud. 
 
-	Together with Jan-Christoph Borchardt I coordinated the first participation of ownCloud
-	the program
-	https://wiki.gnome.org/OutreachProgramForWomen/2014/MayAugust#ownCloud
+	Together with Jan-Christoph Borchardt, I coordinated the first participation of ownCloud
+	at OPW.
+	
 
 2010 -- 2013
-:	**Teaching Assistant**
+:	**Teaching assistant**
 	
 	University of Waterloo
 
@@ -102,6 +103,7 @@ Awards
 2014 -- 2015
 :	David R. Cheriton Graduate Scholarship
 
+
 Professional Service
 --------------------
 
@@ -110,12 +112,15 @@ Professional Service
 	and for the _XVII Conference on Quantum Information Processing (2014)_.
 
 
-[KDE]: http://www.kde.org/
-[opw]: https://gnome.org/opw/
-
 Misc
 ----
 &nbsp;
 :	- Global Representative of Italy at University of Waterloo
 	- Captain of soccer and futsal team Hopeless Experts for five seasons at University of Waterloo
 	- Parlo italiano
+
+
+[KDE]: http://www.kde.org/
+[opw]: https://gnome.org/opw/
+[opw-owncloud]: https://wiki.gnome.org/OutreachProgramForWomen/2014/MayAugust#ownCloud
+
