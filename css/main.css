@@ -154,6 +154,8 @@ a:visited { color: #205caa; }
 
 .home p { margin-bottom: 10px; }
 
+.home h2 { margin-bottom: 10px; }
+
 .home .credit { text-align : right; page-break-before: avoid;
    font-family:Verdana,Arial,Helvetica,sans-serif; }
 .home .credit small { font-size: 80%; } 
@@ -168,35 +170,14 @@ a:visited { color: #205caa; }
     opacity: 0.5;
 }
 
-/*.home blockquote {
-    padding: 20px 25px;
-    border-left: 5px solid #CCC;
-    margin-bottom: 24px;
-    background: none repeat scroll 0% 0% #EEE;
-    position: relative;
+.posts { 
+  /*margin-left: 20px;*/
+  list-style-type: none;
 }
 
-.home blockquote:after {
-    bottom: 0px;
-    right: 10px;
-    content: "”";
+.posts li { 
+  margin-bottom: 15px; 
 }
-
-.home blockquote:before {
-    top: 0px;
-    left: 10px;
-    content: "“";
-}
-
-.home blockquote:after, blockquote:before {
-    color: #CCC;
-    font-size: 15px;
-    /*position: absolute;*/
-}
-
-.posts { list-style-type: none; }
-
-.posts li { margin-bottom: 30px; }
 
 .posts .post-link {
   font-size: 24px;
@@ -205,7 +186,7 @@ a:visited { color: #205caa; }
 }
 
 .posts .post-date {
-  display: block;
+  /*display: block;*/
   font-size: 15px;
   color: #818181;
 }
@@ -217,7 +198,7 @@ a:visited { color: #205caa; }
 .post-header { margin: 10px 0 30px; }
 
 .post-header h1 {
-  font-size: 42px;
+  font-size: 30px;
   letter-spacing: -1.75px;
   line-height: 1;
   font-weight: 300;
@@ -460,6 +441,8 @@ a:visited { color: #205caa; }
 .rss-subscribe a {
   text-decoration: none;
   outline: 0;
+  color: #FF6600;
+  opacity: 0.8;
 }
 
 /* Resume */
