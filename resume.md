@@ -22,7 +22,7 @@ convex programming to quantum information theory.
 Programming Skills
 ==================
 
-The coding related to my research is in the 
+For my research, I mostly code in the 
 MATLAB/Octave language and I use the [CVX](http://cvxr.com/) package for _convex programming_.
 
 When I program for fun, I try to write software that is useful for other people and unrelated to my research.
