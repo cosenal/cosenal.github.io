@@ -72,6 +72,10 @@ a:visited { color: #205caa; }
   letter-spacing: -.5px;
 }
 
+.site-nav .page-selected {
+  text-decoration: underline;
+}
+
 /* Site footer */
 
 .site-footer {
@@ -149,19 +153,6 @@ a:visited { color: #205caa; }
 .home div { margin-bottom: 25px; }
 
 .home p { margin-bottom: 10px; }
-
-.home blockquote {  padding: 20px 25px;
-    border-left: 5px solid #CCC;
-    margin-bottom: 24px;
-    background: none repeat scroll 0% 0% #EEE;
-    position: relative; 
-}
-
-.home blockquote:after {
-    bottom: 0px;
-    right: 10px;
-    content: "”";
-}
 
 .home .credit { text-align : right; page-break-before: avoid;
    font-family:Verdana,Arial,Helvetica,sans-serif; }
@@ -471,15 +462,18 @@ a:visited { color: #205caa; }
   outline: 0;
 }
 
+/* Resume */
+
 #cv h1 {
   font-size: 20px;
   color: #39C;
   margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 #cv h1:before {
   margin: 0 10px 0 0;
-  width: 90px;
+  width: 80px;
   height: 10px;
   display: inline-block;
   content: "";
@@ -490,16 +484,59 @@ a:visited { color: #205caa; }
   font-size: 20px;
   font-weight: bold;
   border-left: 0;
-  margin: 0 0 10px 100px;
+  margin: 0 0 10px 90px;
 }
 
 #cv p { 
-  margin: 0 0 10px 100px;
+  margin: 0 0 10px 90px;
+}
+
+#cv ul {
+  margin-left: 90px;
+  margin-bottom: 10px;
+}
+
+#cv li {
+  margin-left: 20px;
 }
 
 #cv a {
   color: #000;
 }
+
+#cv blockquote p {  
+  padding: 5px 15px;
+  border-left: 5px solid #CCC;
+  margin-bottom: 24px;
+  background: none repeat scroll 0% 0% #EEE;
+  position: relative; */
+  font-style: italic;
+  line-height: 20px;
+}
+
+#cv blockquote p:before {
+  top: 0px;
+  left: 10px;
+  content: "“";
+}
+
+#cv blockquote p:after {
+  bottom: 0px;
+  right: 10px;
+  content: "”";
+}
+
+#cv blockquote p:after, blockquote p:before {
+    color: #818181;
+    font-size: 25px;
+    /*position: absolute;*/
+}
+
+#cv-footer {
+  margin-top: 30px;
+  color: #818181;
+}
+
 
 /* Papers */
 

@@ -6,6 +6,8 @@ layout: default
     {{ content }}
 </div>
 
-<div id="date-footer">
-    Last updated on {{ page.date }}.
+<div id="cv-footer">
+    <p><a href="{{ "/downloads/cosenal-resume.pdf" | prepend: site.baseurl }}">
+            <span class="fa fa-file-pdf-o"></span> Pdf version</a></p>
+    <p>Last updated on {{ page.date }}.</p>
 </div>

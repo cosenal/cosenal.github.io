@@ -2,15 +2,36 @@
 layout: resume
 title: Résumé
 permalink: /resume/
-date: 2014-09-03
+date: 2014-09-04
 ---
 
 Research Interests
 ==================
 
+My research is in _theoretical computer science_ and, more specifically, in the field of _quantum computing_.  
+
+I am particularly interested in questions regarding quantum information theory, quantum query complexity and
+structural complexity theory.  
+
+Specific problems include: local distinguishability of quantum states, 
+oracle complexity, limitations of small-depth circuits, applications of 
+convex programming to quantum information theory.
+
+
 Programming Skills
 ==================
 
+The coding related to my research is in the 
+MATLAB/Octave language and I use the [CVX](http://cvxr.com/) package for _convex programming_.
+
+When I program for fun, I try to write software that is useful for other people and unrelated to my research.
+I identify myself in the following quote by [Scott Aarsonson](http://www.scottaaronson.com/blog/?p=1981):
+
+> If I hadn’t gravitated to the extreme theoretical end of computer science, I think I might have gone instead to 
+> the extreme practical end, rather than to any of the points in between.
+
+I started as a Java/C++ coder, but lately I have transitioned to _web development_ 
+and I am mostly experienced with PHP server-side and JavaScript client-side.
 
 Education
 =========
@@ -22,7 +43,7 @@ _University of Waterloo_
 _January '10 -- present_
     
 Supervisor: Prof. John Watrous  
-Expected graduation date: April 2015
+Expected graduation date: April '15
 
 
 M.Math in Computer Science
@@ -37,11 +58,16 @@ Thesis supervisors: Prof. Anna Bernasconi and Prof. Simone Severini
 B.Math in Computer Science
 --------------------------
 
-_University of Pisa_
+_University of Pisa_  
 _July '06_
     
 Thesis supervisors: Prof. Anna Bernasconi and Prof. Laura Semini
 
+
+Publications
+============
+
+For a list of publications, see the section [**Papers**]({{ site.baseurl }}/papers) of this website.
 
 Work Experience
 ===============
@@ -50,8 +76,8 @@ Work Experience
 Google Summer of Code student developer
 ---------------------------------------
 
-_KDE_  
-_Summer 2012_
+_Organization: KDE_  
+_Summer '12_
 
 Under the mentorship of Jakob Sack, I created the [ownCloud News](https://github.com/owncloud/news) app, 
 a feed reader for [ownCloud](http://owncloud.org/). The app is among the highest rated apps on the 
@@ -62,15 +88,16 @@ UNIX Consultant
 ---------------
 
 _Math Faculty Computing Facility, University of Waterloo_  
-_Winter 2012_, _Fall 2012_
+_Winter '12_, _Fall '12_
 
-Assisting students, faculty and staff with computer related problems.
+Assisting students, faculty and staff with computer related problems, both in person and 
+on the help-desk newsgroup.
     
 
 Season of KDE student developer
 -------------------------------
 
-_Summer 2011_
+_Summer '11_
 
 Participated with the _KDE PIM_ team, under the mentorship of Frank Osterfeld,
 working on Akregator, the feed reader shipped with KDE.
@@ -80,7 +107,7 @@ Programmer
 ----------
 
 _Department of Computer Science, University of Pisa_  
-_Summer 2007_
+_Summer '07_
 
 Designing and implementing a software to map tutors and students for internships at 
 the Department of Computer Science.
@@ -88,11 +115,11 @@ the Department of Computer Science.
 Other Experience
 ================
 
-[Outreach Program for Women][opw] mentor and coordinator
+[Outreach Program for Women][opw] mentor and org coordinator
 ------------------------------------------------------
 
-_ownCloud_  
-_Summer 2014_   
+_Organization: ownCloud_  
+_Summer '14_   
     
 I mentored the applicant Lyndsey Jane Moulds with the project of
 building a Firefox OS app that uploads pictures taken from the phone camera to ownCloud. 
@@ -104,7 +131,7 @@ at OPW.
 Teaching assistant
 ------------------
 
-_University of Waterloo_
+_University of Waterloo_  
 _2010 -- 2013_
 
 Courses: 
@@ -113,6 +140,16 @@ Courses:
 *   Data Structures and Data Management
 *   Algorithms
 *   Introduction to Computer Science 1
+
+
+[Google Code-in][codein] org administrator
+------------------------------------------
+
+_Organization: KDE_  
+_2012_  
+
+I helped Teo Mrnjavac and Lydia Pintscher with admin jobs. This included: approving new tasks, 
+helping students with questions, watching students' requests and forwarding them to the mentors.
 
 
 Exchange programs
@@ -155,10 +192,11 @@ and for the _XVII Conference on Quantum Information Processing (2014)_.
 Misc
 ====
 
-- Global Representative of Italy at University of Waterloo
-- Captain of soccer and futsal team Hopeless Experts for five seasons at University of Waterloo
-- Parlo italiano
+- Global Representative of Italy at University of Waterloo.
+- Captain of soccer and futsal team Hopeless Experts for five seasons at University of Waterloo.
+- Parlo italiano.
 
 [opw]: https://gnome.org/opw/
+[codein]: https://www.google-melange.com/gci/homepage/google/gci2012
 
 

@@ -28,15 +28,20 @@
         {% if site.github_username %}<li>
           <span class="fa fa-github-alt"></span>
           <a href="https://github.com/{{ site.github_username }}">
-            github.com/<span class="username">{{ site.github_username }}</span>
+            <span class="username">Github profile</span>
           </a>
         </li>{% endif %}
         {% if site.wordpress_url %}<li>
-          <i class="fa fa-wordpress"></i>
+          <span class="fa fa-wordpress"></span>
           <a href="{{ site.wordpress_url }}">  
-            <span class="username">my blog</span>
+            <span class="username">My blog</span>
           </a>
         </li>{% endif %}
+        <li>
+          <span class="fa fa-stack-exchange"></span>
+          <a href="http://stackexchange.com/users/437474/alessandro-cosentino">
+            <span class="username">StackExchange profile</span></a>
+        </li>
         <li><span class="about">
           &#x2053; <a href="{{ "/about/" | prepend : site.baseurl }}">About this website</a> &#x2053;
         </span>
