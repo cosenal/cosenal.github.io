@@ -3,6 +3,7 @@ layout: resume
 title: Résumé
 permalink: /resume/
 date: 2014-09-04
+author: Alessandro Cosentino
 ---
 
 Research Interests
@@ -67,7 +68,7 @@ Thesis supervisors: Prof. Anna Bernasconi and Prof. Laura Semini
 Publications
 ============
 
-For a list of publications, see the section [**Papers**]({{ site.baseurl }}/papers) of this website.
+For an updated list of publications, see [**my profile**](http://arxiv.org/a/cosentino_a_1) on _arxiv.org_.
 
 Work Experience
 ===============
