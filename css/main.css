@@ -154,7 +154,10 @@ a:visited { color: #205caa; }
 
 .home p { margin-bottom: 10px; }
 
-.home h2 { margin-bottom: 10px; }
+.home h2 { 
+  font-size: 20px;
+  margin-bottom: 10px; 
+}
 
 .home .credit { text-align : right; page-break-before: avoid;
    font-family:Verdana,Arial,Helvetica,sans-serif; }
@@ -443,6 +446,7 @@ a:visited { color: #205caa; }
   outline: 0;
   color: #FF6600;
   opacity: 0.8;
+  font-size: 15px;
 }
 
 /* Resume */

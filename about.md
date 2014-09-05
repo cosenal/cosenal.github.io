@@ -10,3 +10,5 @@ The Pdf version of the résumé is generated with John MacFarlane's great tool
 
 The Crane icon is designed by [Kenneth Von Alt](http://www.thenounproject.com/KenVonAlt) from the 
 [Noun Project](http://www.thenounproject.com).
+
+The layout of the resume page is inspired by Parker Moore's [personal page](https://byparker.com)
