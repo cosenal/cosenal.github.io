@@ -4,7 +4,7 @@ title: "Small sets of locally indistinguishable orthogonal maximally entangled s
 authors: Alessandro Cosentino, Vincent Russo
 date: 2014-08-12 
 arxiv: 1307.3232
-categories: state-discrimination
+categories: state-discrimination, selected
 journal: Quantum Information & Computation, Vol.14 No.13 & 14, pp. 1098-1106 (2014)
 ---
 
