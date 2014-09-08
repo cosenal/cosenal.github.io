@@ -18,10 +18,13 @@ _University of Waterloo_ — _January '10 -- present_
     
 Expected graduation date: April '15
 
+Fellow of the **Institute for Quantum Computing**
+
 Recipient of a **David R. Cheriton Graduate Scholarship**,  
 <small>awarded annually to forty to seventy-five full-time
 University of Waterloo Computer Science graduate students 
 on the basis of scholastic excellence and evidence of research potential.</small>
+
 
 
 M.Math in Computer Science
@@ -43,8 +46,12 @@ Final score: 110/110 _cum laude_
 Selected Articles
 =================
 
-- **Limitations on separable measurements by convex optimization, 2014**  
+- **Limitations on separable measurements by convex optimization, 2014**
 - **Small sets of locally indistinguishable orthogonal maximally entangled states, 2014**
+- **PPT-indistinguishable states via semidefinite programming, 2012**
+
+Used _convex programming_ to answer several fundamental open questions in 
+_quantum information theory_. 
 
 (Complete list of publications available at 
 [https://cosenal.github.io/papers/](https://cosenal.github.io/papers/))
@@ -68,8 +75,8 @@ Season of KDE student developer
 
 _Summer '11_
 
-Built an for the porting of Akregator (KDE feed reader) to the storage service introduced 
-in KDE4.
+Built a component for the porting of the KDE feed reader Akregator 
+to the storage service Akonadi introduced in KDE 4.
 
 
 Teaching assistant
@@ -77,7 +84,7 @@ Teaching assistant
 
 _University of Waterloo_ — _2010 -- 2013_
 
-Courses: Theory of Quantum Information (graduate course), Data Structures and Data Management,
+Courses: Theory of Quantum Information (graduate), Data Structures and Data Management,
 Algorithms, Introduction to Computer Science.
 
 
@@ -116,8 +123,9 @@ _LIAFA, Université Paris Diderot_ — _February '13 -- April '13_
 <!-- Organizer and speaker of a reading group on semidefinite programming in quantum information 
 and invited speaker at the Japan-France Workshop on Quantum Information.
  -->
+
 [Erasmus](http://en.wikipedia.org/wiki/Erasmus_Programme) scholar
-----------------
+----------------------------------------------------------------
 
 _Aarhus University_ — _September '07 -- March '08_
 
@@ -128,13 +136,12 @@ Professional Service
 Reviewer for the journals _APS Physical Review A_, _IEEE Transactions on Information Theory_, 
 and for the _XVII Conference on Quantum Information Processing (2014)_.
 
-Skills
-======
+Technical Skills
+================
+* Research tools: LaTeX, MATLAB/Octave and framework CVX for convex programming;
+* Web programming languages: PHP, HTML5, Javascript (with AngularJS framework), CSS;
+* Other technologies: RSS and Atom standards, Git.
 
-
-
-<!-- - Parlo italiano.
- -->
 <!-- - Global Representative of Italy at University of Waterloo.
 - Captain of soccer and futsal intramural team Hopeless Experts for five seasons.
  -->

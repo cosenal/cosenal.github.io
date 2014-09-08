@@ -1,0 +1,183 @@
+\documentclass[]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fullpage}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \usepackage{fontspec}
+  \ifxetex
+    \usepackage{xltxtra,xunicode}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={Alessandro Cosentino},
+            pdftitle={Résumé},
+            colorlinks=false,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\title{Résumé}
+\author{Alessandro Cosentino}
+\date{2014-09-04}
+
+\begin{document}
+\maketitle
+
+\section{Education}\label{education}
+
+\subsection{Ph.D.~in Computer Science}\label{ph.d.in-computer-science}
+
+\emph{University of Waterloo} --- \emph{January '10 -- present}
+
+Expected graduation date: April '15
+
+Fellow of the \textbf{Institute for Quantum Computing}
+
+Recipient of a \textbf{David R. Cheriton Graduate Scholarship},\\awarded
+annually to forty to seventy-five full-time University of Waterloo
+Computer Science graduate students on the basis of scholastic excellence
+and evidence of research potential.
+
+\subsection{M.Math in Computer
+Science}\label{m.math-in-computer-science}
+
+\emph{University of Pisa} --- \emph{February '09}
+
+Final score: 110/110 \emph{cum laude}
+
+\subsection{B.Math in Computer
+Science}\label{b.math-in-computer-science}
+
+\emph{University of Pisa} --- \emph{July '06}
+
+Final score: 110/110 \emph{cum laude}
+
+\section{Selected Articles}\label{selected-articles}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  \textbf{Limitations on separable measurements by convex optimization,
+  2014}
+\item
+  \textbf{Small sets of locally indistinguishable orthogonal maximally
+  entangled states, 2014}
+\item
+  \textbf{PPT-indistinguishable states via semidefinite programming,
+  2012}
+\end{itemize}
+
+Used \emph{convex programming} to answer several fundamental open
+questions in \emph{quantum information theory}.
+
+(Complete list of publications available at
+\url{https://cosenal.github.io/papers/})
+
+\section{Work Experience}\label{work-experience}
+
+\subsection{Google Summer of Code student
+developer}\label{google-summer-of-code-student-developer}
+
+\emph{KDE} --- \emph{Summer '12}
+
+Created the \href{https://github.com/owncloud/news}{ownCloud News} app,
+a feed reader for \href{http://owncloud.org/}{ownCloud}. The app is
+among the top 5 highest rated apps on the
+\href{http://apps.owncloud.com/index.php?xsortmode=high}{ownCloud App
+store} and it has served as a testbed for ownCloud core technologies,
+such as the app framework.
+
+\subsection{Season of KDE student
+developer}\label{season-of-kde-student-developer}
+
+\emph{Summer '11}
+
+Built a component for the porting of the KDE feed reader Akregator to
+the storage service Akonadi introduced in KDE 4.
+
+\subsection{Teaching assistant}\label{teaching-assistant}
+
+\emph{University of Waterloo} --- \emph{2010 -- 2013}
+
+Courses: Theory of Quantum Information (graduate course), Data
+Structures and Data Management, Algorithms, Introduction to Computer
+Science.
+
+\section{Other Experience}\label{other-experience}
+
+\subsection{\href{https://gnome.org/opw/}{Outreach Program for Women}
+org coordinator and
+mentor}\label{outreach-program-for-womenopw-org-coordinator-and-mentor}
+
+\emph{GNOME Foundation} --- \emph{Summer '14}
+
+Coordinated the first participation of ownCloud at OPW and mentored a
+successful ownCloud project.
+
+\subsection{UNIX Consultant}\label{unix-consultant}
+
+\emph{Math Faculty Computing Facility, University of Waterloo} ---
+\emph{Winter '12} and \emph{Fall '12}
+
+Assisted students, faculty and staff with computer related problems.
+
+\subsection{\href{https://www.google-melange.com/gci/homepage/google/gci2012}{Google
+Code-in} org
+administrator}\label{google-code-incodein-org-administrator}
+
+\emph{KDE} --- \emph{Winter '12}
+
+\section{Exchange programs}\label{exchange-programs}
+
+\subsection{Research intern}\label{research-intern}
+
+\emph{LIAFA, Université Paris Diderot} --- \emph{February '13 -- April
+'13}
+
+\subsection{\href{http://en.wikipedia.org/wiki/Erasmus_Programme}{Erasmus}
+scholar}\label{erasmus-scholar}
+
+\emph{Aarhus University} --- \emph{September '07 -- March '08}
+
+\section{Professional Service}\label{professional-service}
+
+Reviewer for the journals \emph{APS Physical Review A}, \emph{IEEE
+Transactions on Information Theory}, and for the \emph{XVII Conference
+on Quantum Information Processing (2014)}.
+
+\section{Technical Skills}\label{technical-skills}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Research tools: LaTeX, MATLAB/Octave and framework CVX for convex
+  programming;
+\item
+  Web programming Languages: PHP, HTML5, Javascript (with AngularJS
+  framework), CSS;
+\item
+  Other technologies: RSS and Atom standards, Git.
+\end{itemize}
+
+\end{document}
