@@ -2,7 +2,7 @@
 layout: resume
 title: Résumé
 permalink: /resume/
-date: 2014-09-04
+date: 2014-09-08
 author: Alessandro Cosentino
 ---
 
