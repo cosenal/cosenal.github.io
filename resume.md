@@ -14,9 +14,9 @@ Education
 Ph.D. in Computer Science
 ------------------------
 
-_University of Waterloo_ — _January '10 -- present_
+_University of Waterloo_ — _January &rsquo;10 -- present_
     
-Expected graduation date: April '15
+Expected graduation date: April &rsquo;15
 
 Fellow of the **Institute for Quantum Computing**
 
@@ -30,7 +30,7 @@ on the basis of scholastic excellence and evidence of research potential.</small
 M.Math in Computer Science
 --------------------------
 
-_University of Pisa_ — _February '09_
+_University of Pisa_ — _February &rsquo;09_
 
 Final score: 110/110 _cum laude_
 
@@ -38,7 +38,7 @@ Final score: 110/110 _cum laude_
 B.Math in Computer Science
 --------------------------
 
-_University of Pisa_ — _July '06_
+_University of Pisa_ — _July &rsquo;06_
     
 Final score: 110/110 _cum laude_
 
@@ -62,7 +62,7 @@ Work Experience
 
 Google Summer of Code student developer
 ---------------------------------------
-_KDE_ — _Summer '12_
+_KDE_ — _Summer &rsquo;12_
 
 Created the [ownCloud News](https://github.com/owncloud/news) app, 
 a feed reader for [ownCloud](http://owncloud.org/). 
@@ -73,7 +73,7 @@ and it has served as a testbed for ownCloud core technologies, such as the app f
 Season of KDE student developer
 -------------------------------
 
-_Summer '11_
+_Summer &rsquo;11_
 
 Built a component for the porting of the KDE feed reader Akregator 
 to the storage service Akonadi introduced in KDE 4.
@@ -94,7 +94,7 @@ Other Experience
 [Outreach Program for Women][opw] org coordinator and mentor 
 ------------------------------------------------------------
 
-_GNOME Foundation_ — _Summer '14_   
+_GNOME Foundation_ — _Summer &rsquo;14_   
     
 Coordinated the first participation of ownCloud at OPW and mentored a successful ownCloud project.
 
@@ -102,14 +102,14 @@ Coordinated the first participation of ownCloud at OPW and mentored a successful
 UNIX Consultant
 ---------------
 
-_Math Faculty Computing Facility, University of Waterloo_ — _Winter '12_ and _Fall '12_
+_Math Faculty Computing Facility, University of Waterloo_ — _Winter &rsquo;12_ and _Fall &rsquo;12_
 
 Assisted students, faculty and staff with computer related problems.
 
 
 [Google Code-in][codein] org administrator
 ------------------------------------------
-_KDE_ — _Winter '12_
+_KDE_ — _Winter &rsquo;12_
 
 
 Exchange programs
@@ -118,7 +118,7 @@ Exchange programs
 Research intern
 ---------------
 
-_LIAFA, Université Paris Diderot_ — _February '13 -- April '13_
+_LIAFA, Université Paris Diderot_ — _February &rsquo;13 -- April &rsquo;13_
 
 <!-- Organizer and speaker of a reading group on semidefinite programming in quantum information 
 and invited speaker at the Japan-France Workshop on Quantum Information.
@@ -127,7 +127,7 @@ and invited speaker at the Japan-France Workshop on Quantum Information.
 [Erasmus](http://en.wikipedia.org/wiki/Erasmus_Programme) scholar
 ----------------------------------------------------------------
 
-_Aarhus University_ — _September '07 -- March '08_
+_Aarhus University_ — _September &rsquo;07 -- March &rsquo;08_
 
 
 Professional Service
