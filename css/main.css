@@ -183,7 +183,7 @@ a:visited { color: #205caa; }
 }
 
 .posts .post-link {
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: -1px;
   line-height: 1;
 }
@@ -451,6 +451,31 @@ a:visited { color: #205caa; }
 
 /* Resume */
 
+@media screen and (min-width: 600px) {
+
+  #cv h1:before {
+    margin: 0 10px 0 0;
+    width: 80px;
+    height: 10px;
+    display: inline-block;
+    content: "";
+    background-color: #39C;
+  }
+
+  #cv h2 {
+    margin-left: 90px;
+  }
+
+  #cv p { 
+    margin-left: 90px;
+  }
+
+  #cv ul {
+    margin-left: 90px;
+  }
+
+}
+
 #cv h1 {
   font-size: 20px;
   color: #39C;
@@ -458,30 +483,21 @@ a:visited { color: #205caa; }
   margin-top: 5px;
 }
 
-#cv h1:before {
-  margin: 0 10px 0 0;
-  width: 80px;
-  height: 10px;
-  display: inline-block;
-  content: "";
-  background-color: #39C;
-}
-
 #cv h2 {
   font-size: 20px;
   font-weight: bold;
   border-left: 0;
-  margin: 0 0 10px 90px;
+  margin-bottom: 10px;
 }
 
-#cv p { 
-  margin: 0 0 10px 90px;
+#cv p {
+  margin-bottom: 10px;
 }
 
 #cv ul {
-  margin-left: 90px;
   margin-bottom: 10px;
 }
+
 
 #cv li {
   margin-left: 20px;

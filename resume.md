@@ -51,7 +51,7 @@ Selected Articles
 - **PPT-indistinguishable states via semidefinite programming, 2012**
 
 Used _convex programming_ to answer several fundamental open questions in 
-_quantum information theory_. 
+the topic of _quantum state discrimination_. 
 
 (Complete list of publications available at 
 [https://cosenal.github.io/papers/](https://cosenal.github.io/papers/))
@@ -120,9 +120,6 @@ Research intern
 
 _LIAFA, Université Paris Diderot_ — _February &rsquo;13 -- April &rsquo;13_
 
-<!-- Organizer and speaker of a reading group on semidefinite programming in quantum information 
-and invited speaker at the Japan-France Workshop on Quantum Information.
- -->
 
 [Erasmus](http://en.wikipedia.org/wiki/Erasmus_Programme) scholar
 ----------------------------------------------------------------
@@ -142,8 +139,10 @@ Technical Skills
 * Web programming languages: PHP, HTML5, Javascript (with AngularJS framework), CSS;
 * Other technologies: RSS and Atom standards, Git.
 
-<!-- - Global Representative of Italy at University of Waterloo.
-- Captain of soccer and futsal intramural team Hopeless Experts for five seasons.
+<!-- Misc
+====
+* Global Representative of Italy at University of Waterloo.
+* Captain of soccer and futsal intramural team Hopeless Experts for five seasons.
  -->
 [opw]: https://gnome.org/opw/
 [codein]: https://www.google-melange.com/gci/homepage/google/gci2012
