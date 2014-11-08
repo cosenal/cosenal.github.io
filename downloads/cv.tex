@@ -1,0 +1,172 @@
+\documentclass[]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fullpage}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \usepackage{fontspec}
+  \ifxetex
+    \usepackage{xltxtra,xunicode}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+%            bookmarks=true,
+            pdfauthor={Alessandro Cosentino},
+            pdftitle={CV},
+            colorlinks=false,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\title{CV}
+\author{Alessandro Cosentino}
+\date{2014-11-07}
+
+\usepackage{fancyhdr}
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+
+\makeatletter
+\cfoot{this is page \@author \thepage}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\section{Education}\label{education}
+
+\subsection{Ph.D.~in Computer Science}\label{ph.d.in-computer-science}
+
+\emph{University of Waterloo} --- \emph{January '10 -- present}
+
+Expected graduation date: April '15
+
+Fellow of the \textbf{Institute for Quantum Computing}
+
+Recipient of a \textbf{David R. Cheriton Graduate Scholarship},\\awarded
+annually to forty to seventy-five full-time University of Waterloo
+Computer Science graduate students on the basis of scholastic excellence
+and evidence of research potential.
+
+\subsection{M.Math in Computer
+Science}\label{m.math-in-computer-science}
+
+\emph{University of Pisa} --- \emph{February '09}
+
+Final score: 110/110 \emph{cum laude}
+
+\subsection{B.Math in Computer
+Science}\label{b.math-in-computer-science}
+
+\emph{University of Pisa} --- \emph{July '06}
+
+Final score: 110/110 \emph{cum laude}
+
+\section{Research Interests}
+
+
+Used \emph{convex programming} to answer several fundamental open
+questions in \emph{quantum information theory}.
+
+\section{Exchange programs}\label{exchange-programs}
+
+\subsection{Research intern}\label{research-intern}
+
+\emph{LIAFA, Université Paris Diderot} --- \emph{February '13 -- April
+'13}
+
+\subsection{\href{http://en.wikipedia.org/wiki/Erasmus_Programme}{Erasmus}
+scholar}\label{erasmus-scholar}
+
+\emph{Aarhus University} --- \emph{September '07 -- March '08}
+
+
+\section{Publications}\label{publications}
+
+
+\subsection{Work in progress}
+
+
+\section{Teaching Experience}\label{teaching-experience}
+
+\subsection{Teaching assistant}\label{teaching-assistant}
+
+\emph{University of Waterloo} --- \emph{2010 -- 2013}
+
+Courses: Theory of Quantum Information (graduate course), Data
+Structures and Data Management, Algorithms, Introduction to Computer
+Science.
+
+
+\section{Other Experience}\label{work-experience}
+
+\subsection{Google Summer of Code student
+developer}\label{google-summer-of-code-student-developer}
+
+\emph{Summer '12}
+
+\subsection{Season of KDE student
+developer}\label{season-of-kde-student-developer}
+
+\emph{Summer '11}
+
+\subsection{\href{https://gnome.org/opw/}{Outreach Program for Women}
+org coordinator and
+mentor}\label{outreach-program-for-womenopw-org-coordinator-and-mentor}
+
+\emph{Summer '14}
+
+\subsection{UNIX Consultant}\label{unix-consultant}
+
+\emph{Math Faculty Computing Facility, University of Waterloo} ---
+\emph{Winter '12} and \emph{Fall '12}
+
+\subsection{\href{https://www.google-melange.com/gci/homepage/google/gci2012}{Google
+Code-in} org
+administrator}\label{google-code-incodein-org-administrator}
+
+\emph{Winter '12}
+
+
+\section{Professional Service}\label{professional-service}
+
+\subsection{Technical Reviewer} 
+\begin{itemize}
+  \item \emph{APS Physical Review A}
+  \item \emph{IEEE Transactions on Information Theory}
+  \item \emph{XVII Conference on Quantum Information Processing (2014)}.
+\end{itemize}
+
+\section{Technical Skills}\label{technical-skills}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Research tools: LaTeX, MATLAB/Octave and framework CVX for convex
+  programming;
+\item
+  Web programming Languages: PHP, HTML5, Javascript, CSS;
+\item
+  Other technologies: RSS and Atom standards, Git.
+\end{itemize}
+
+\end{document}
