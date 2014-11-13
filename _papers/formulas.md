@@ -3,7 +3,7 @@ layout: paper
 title: "Dequantizing read-once quantum formulas"
 authors: Alessandro Cosentino, Robin Kothari, Adam Paetznick
 date: 2013-04-18
-arxiv: '1307.3232'
+arxiv: '1304.5164'
 categories: complexity
 journal: 8th Conference on the Theory of Quantum Computation, Communication and Cryptography (TQC 2013), Leibniz International Proceedings in Informatics (LIPIcs) 22, pp. 80-92 (2013) 
 ---

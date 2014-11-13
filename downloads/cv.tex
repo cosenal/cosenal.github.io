@@ -18,11 +18,11 @@
   \newcommand{\euro}{€}
 \fi
 \ifxetex
-  \usepackage[setpagesize=false, % page size defined by xetex
-              unicode=false, % unicode breaks when used with xetex
-              xetex]{hyperref}
+ \usepackage[setpagesize=false, % page size defined by xetex
+             unicode=false, % unicode breaks when used with xetex
+             xetex]{hyperref}
 \else
-  \usepackage[unicode=true]{hyperref}
+ \usepackage[unicode=true]{hyperref}
 \fi
 \hypersetup{breaklinks=true,
 %            bookmarks=true,
@@ -37,16 +37,24 @@
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \setcounter{secnumdepth}{0}
 
-\title{CV}
+\title{Curriculum Vitae}
 \author{Alessandro Cosentino}
-\date{2014-11-07}
+\date{2014-11-14}
 
 \usepackage{fancyhdr}
-\setlength{\headheight}{15.2pt}
+%\setlength{\headheight}{15.2pt}
+\renewcommand{\headrulewidth}{0pt}% Remove header rule
+\fancyhead{}
 \pagestyle{fancy}
+\cfoot{Alessandro Cosentino's CV -- \thepage}
 
-\makeatletter
-\cfoot{this is page \@author \thepage}
+\usepackage{bibentry}
+
+\usepackage{array, xcolor}
+\definecolor{lightgray}{gray}{0.8}
+\newcolumntype{L}{>{\raggedleft}p{0.05\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
 
 \begin{document}
 \maketitle
@@ -83,9 +91,22 @@ Final score: 110/110 \emph{cum laude}
 
 \section{Research Interests}
 
-
 Used \emph{convex programming} to answer several fundamental open
 questions in \emph{quantum information theory}.
+
+\bibliographystyle{plain}
+\nobibliography{publications}
+
+\section{Publications}\label{publications}
+
+\begin{itemize}
+  \item \bibentry{Cosentino2014a}
+  \item \bibentry{Bandyopadhyay2014}
+  \item \bibentry{Cosentino2014}
+  \item \bibentry{Cosentino2013a}
+  \item \bibentry{Cosentino2013}
+  \item \bibentry{Cosentino2009}
+\end{itemize}
 
 \section{Exchange programs}\label{exchange-programs}
 
@@ -99,53 +120,34 @@ scholar}\label{erasmus-scholar}
 
 \emph{Aarhus University} --- \emph{September '07 -- March '08}
 
-
-\section{Publications}\label{publications}
-
-
-\subsection{Work in progress}
-
-
 \section{Teaching Experience}\label{teaching-experience}
 
 \subsection{Teaching assistant}\label{teaching-assistant}
 
 \emph{University of Waterloo} --- \emph{2010 -- 2013}
 
-Courses: Theory of Quantum Information (graduate course), Data
-Structures and Data Management, Algorithms, Introduction to Computer
-Science.
+\begin{itemize}
+\item Theory of Quantum Information (graduate course)
+\item Data Structures and Data Management
+\item Algorithms
+\item Introduction to Computer Science
+\end{itemize}
+
+\subsection{UNIX Consultant}
+\emph{Math Faculty Computing Facility, University of Waterloo} ---
+\emph{Winter '12} and \emph{Fall '12}
 
 
 \section{Other Experience}\label{work-experience}
 
-\subsection{Google Summer of Code student
-developer}\label{google-summer-of-code-student-developer}
-
-\emph{Summer '12}
-
-\subsection{Season of KDE student
-developer}\label{season-of-kde-student-developer}
-
-\emph{Summer '11}
-
-\subsection{\href{https://gnome.org/opw/}{Outreach Program for Women}
-org coordinator and
-mentor}\label{outreach-program-for-womenopw-org-coordinator-and-mentor}
-
-\emph{Summer '14}
-
-\subsection{UNIX Consultant}\label{unix-consultant}
-
-\emph{Math Faculty Computing Facility, University of Waterloo} ---
-\emph{Winter '12} and \emph{Fall '12}
-
-\subsection{\href{https://www.google-melange.com/gci/homepage/google/gci2012}{Google
-Code-in} org
-administrator}\label{google-code-incodein-org-administrator}
-
-\emph{Winter '12}
-
+\begin{description}
+\item[\href{https://gnome.org/opw/}{Outreach Program for Women}
+org coordinator and mentor] -- \emph{Summer '14}
+\item[\href{https://www.google-melange.com/gci/homepage/google/gci2012}{Google
+Code-in} org administrator] -- \emph{Winter '12}
+\item[Google Summer of Code student developer] -- \emph{Summer '12}
+\item[Season of KDE student developer]  -- \emph{Summer '11}
+\end{description}
 
 \section{Professional Service}\label{professional-service}
 
