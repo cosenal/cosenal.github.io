@@ -66,9 +66,9 @@ _KDE_ — _Summer &rsquo;12_
 
 Created the [ownCloud News](https://github.com/owncloud/news) app, 
 a feed reader for [ownCloud](http://owncloud.org/). 
-The app is among the top 5 highest rated apps on the 
-[ownCloud App store](http://apps.owncloud.com/index.php?xsortmode=high)
-and it has served as a testbed for ownCloud core technologies, such as the app framework.
+The app has been among the top 5 highest rated apps on the 
+[ownCloud App store](http://apps.owncloud.com/index.php?xsortmode=high) for two years and it has served 
+as a testbed for ownCloud core technologies, such as the app framework.
 
 Season of KDE student developer
 -------------------------------
