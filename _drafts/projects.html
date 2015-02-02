@@ -6,9 +6,21 @@ date: 2014-08-18 02:00:00 CET
 ---
 
 <div class="home">
-    <div class="under-construction">
-        <img src="{{ site.baseurl }}/images/icon_7066/icon_7066.svg">
-        <h1>This page is under construction. In the meanwhile, 
-        check out my <a href="https://github.com/cosenal">Github profile</a>.</h1>
-    </div>
+
+{% assign projects = site.projects | sort: 'date' | reverse %}
+
+<h3>Major collaborations</h3>
+
+ <ul class="projects">
+    {% for project in projects %}
+      <li>
+        <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p>
+    Also check out <a href="https://github.com/cosenal/">my Github's profile</a>
+  </p>
+
 </div>

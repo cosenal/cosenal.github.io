@@ -14,7 +14,7 @@ Education
 Ph.D. in Computer Science
 ------------------------
 
-_University of Waterloo_ — _January &rsquo;10 -- present_
+_University of Waterloo_ — _January &rsquo;10 – present_
     
 Expected graduation date: April &rsquo;15
 
@@ -82,7 +82,7 @@ to the storage service Akonadi introduced in KDE 4.
 Teaching assistant
 ------------------
 
-_University of Waterloo_ — _2010 -- 2013_
+_University of Waterloo_ — _2010 – 2013_
 
 Courses: Theory of Quantum Information (graduate), Data Structures and Data Management,
 Algorithms, Introduction to Computer Science.
@@ -124,7 +124,7 @@ _LIAFA, Université Paris Diderot_ — _February &rsquo;13 -- April &rsquo;13_
 [Erasmus](http://en.wikipedia.org/wiki/Erasmus_Programme) scholar
 ----------------------------------------------------------------
 
-_Aarhus University_ — _September &rsquo;07 -- March &rsquo;08_
+_Aarhus University_ — _September &rsquo;07 – March &rsquo;08_
 
 
 Professional Service

@@ -8,7 +8,4 @@ This website is made with [Jekyll](http://jekyllrb.com/) ([source code](https://
 The pdf version of the résumé is generated with John MacFarlane's awesome tool 
 [Pandoc](http://johnmacfarlane.net/pandoc/).
 
-The Crane icon is designed by [Kenneth Von Alt](http://www.thenounproject.com/KenVonAlt) from the 
-[Noun Project](http://www.thenounproject.com).
-
-The layout of the resume page is inspired by Parker Moore's [personal page](https://byparker.com).
+The layout of the résumé page is inspired by Morris Jobke's [personal page](http://morrisjobke.de/).

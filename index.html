@@ -5,32 +5,40 @@ layout: default
 <div class="home">
  
   <!-- TODO: move this to a markdown file -->
-  <div>
-    <p>Ciao! I am a PhD student in Computer Science at the University of Waterloo.</p>
-    <p><a href="{{ "/papers" | prepend: site.baseurl }}">My research</a> is in theoretical computer science, 
-      more specifically in <b>quantum information theory</b>.</p>
-    <p>When not doing research, I write</a> 
-      <b>open source software</b>.</p>
-    <p>In my free time, I play (and <a href="http://www.sscnapoli.it">watch</a>) soccer, 
-      <a href="http://www.strava.com/athletes/{{ site.strava_id }}">ride bicycles, and run.</a></p> 
+  <div id="intro">
+    <div id="intro-left">
+      <img id="portrait" src="images/portrait.png" title="Picture by Raghu Nayyar" alt="my face">
+    </div>
+    <div id="intro-right">
+      <p>Ciao! I am a PhD student in Computer Science at the University of Waterloo.</p>
+      <p><a href="{{ "/papers" | prepend: site.baseurl }}">My research</a> is in theoretical computer science, 
+        more specifically in <em>quantum computing</em>.</p>
+      <p>When not doing research, I write</a> 
+        <em>open source software</em>.</p>
+      <p>My most productive hours are 10AM–noon and 5PM–7PM.</p>
+      <p>In my free time, I play (and <a href="http://www.sscnapoli.it">watch</a>) soccer, 
+        <a href="http://www.strava.com/athletes/{{ site.strava_id }}">ride bicycles, and run.</a></p> 
+    </div>
   </div>
 
   {% if site.posts.size > 0 %}
-  <h2>News</h2> 
-  
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> • 
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
- 
-  <p class="rss-subscribe">
-    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-      <span class="fa fa-rss" ></span> Subscribe in a reader</a>
-  </p>
+  <div id="news">
+    <h2>News</h2> 
+    
+    <ul class="posts">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> • 
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+   
+    <p class="rss-subscribe">
+      <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+        <span class="fa fa-rss" ></span> Subscribe in a reader</a>
+    </p>
+  </div>
   {% endif %}
 
 </div>

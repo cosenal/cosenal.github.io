@@ -14,5 +14,6 @@ markdown: kramdown
 permalink: pretty
 
 collections:
-    papers:
-        output: true
+    - papers
+    - projects
+
