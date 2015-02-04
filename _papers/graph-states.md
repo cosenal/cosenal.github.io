@@ -1,5 +1,6 @@
 ---
 layout: paper
+type: journal
 title: "Weight of quadratic forms and graph states"
 authors: Alessandro Cosentino, Simone Severini
 date: 2009-11-10

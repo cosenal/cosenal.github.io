@@ -1,5 +1,6 @@
 ---
 layout: paper
+type: journal
 title: "Dequantizing read-once quantum formulas"
 authors: Alessandro Cosentino, Robin Kothari, Adam Paetznick
 date: 2013-04-18

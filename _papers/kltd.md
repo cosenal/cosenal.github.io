@@ -1,5 +1,6 @@
 ---
 layout: paper
+type: journal
 title: "Small sets of locally indistinguishable orthogonal maximally entangled states"
 authors: Alessandro Cosentino, Vincent Russo
 date: 2014-08-12 
