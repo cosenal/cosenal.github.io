@@ -52,7 +52,7 @@ a:visited { color: #205caa; }
   display: block;
   color: #333;
   font-size: 26px;
-  letter-spacing: -1px;
+/*  letter-spacing: -.5px; */  
   float: left;
   line-height: 56px;
   position: relative;
@@ -69,7 +69,7 @@ a:visited { color: #205caa; }
 .site-nav .page-link {
   margin-left: 20px;
   color: #727272;
-  letter-spacing: -.5px;
+  /*letter-spacing: -.5px;*/
 }
 
 .site-nav .page-selected {
@@ -187,7 +187,6 @@ a:visited { color: #205caa; }
   height: auto;
 } 
 
-
 .posts { 
   /*margin-left: 20px;*/
   list-style-type: none;
@@ -199,7 +198,7 @@ a:visited { color: #205caa; }
 
 .posts .post-link {
   font-size: 20px;
-  letter-spacing: -1px;
+  letter-spacing: -.5px;
   line-height: 1;
 }
 
@@ -560,7 +559,10 @@ a:visited { color: #205caa; }
 
 .papers { list-style-type: none; }
 
-.papers li { margin-bottom: 30px; }
+.papers li { 
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
 
 .papers .paper-link {
   font-size: 18px;
@@ -583,4 +585,30 @@ a:visited { color: #205caa; }
   display: block;
   font-size: 15px;
   font-style: italic;
+}
+
+
+/* Projects */
+
+.projects { list-style-type: none; }
+
+.projects li {
+  margin-bottom: 30px; 
+  margin-left: 20px;
+}
+
+.projects .project-title {
+  font-size: 18px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+.projects .project-authors {
+  display: block;
+  font-size: 15px;
+}
+
+.projects .project-content {
+  display: block;
+  margin-top: 10px;
 }

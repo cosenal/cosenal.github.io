@@ -7,13 +7,13 @@ date: 2015-02-03 02:00:00 CET
 
 <div class="home">
 
-{% assign major_collaborations = site.projects | where:"type","major" | sort: 'date' | reverse %}
-{% assign minor_collaborations = site.projects | where:"type","minor" | sort: 'date' | reverse %}
+{% assign major = site.projects | where:"type","major" | sort: 'date' | reverse %}
+{% assign minor = site.projects | where:"type","minor" | sort: 'date' | reverse %}
 
 <h3>Major collaborations</h3>
 
   <ul class="projects">
-    {% for project in major_collaborations %}
+    {% for project in major %}
     <li>
         <a href="{{ project.repo_url }} ">
           <span class="project-title">{{ project.title }}</span>
@@ -31,7 +31,7 @@ date: 2015-02-03 02:00:00 CET
 
 <h3>Minor collaborations</h3>
   <ul class="projects">
-    {% for project in minor_collaborations %}
+    {% for project in minor %}
     <li>
         <span class="project-title">{{ project.title }}</span>
         <span class="project-content">{{ project.content }}</span> 

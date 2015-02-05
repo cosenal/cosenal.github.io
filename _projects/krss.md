@@ -1,5 +1,9 @@
 ---
-layout: project
-title: "Dequantizing read-once quantum formulas"
-date: 2013
+type: major
+title: "krsslocal"
+date: 2012
+authors: Frank Osterfeld
+repo_url: https://github.com/owncloud/news
 ---
+
+Akonadi

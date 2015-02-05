@@ -21,13 +21,13 @@
         {% for page in site.pages %}
           {% if page.title %}
             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
-              {% if page.title == this_page.title %}
+            {% if page.title == this_page.title %}
               <span class="page-selected">
-              {% endif %}
-                {{ page.title }}
-              {% if page.title == this_page.title %}
+            {% endif %}
+            {{ page.title }}
+            {% if page.title == this_page.title %}
               </span>
-              {% endif %}
+            {% endif %}
             </a>
           {% endif %}
         {% endfor %}

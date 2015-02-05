@@ -15,7 +15,9 @@ permalink: pretty
 collections:
     papers:
         output: true
+        layout: "paper"
     projects:
         output: true
+        layout: "project"
 
 
