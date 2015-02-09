@@ -2,7 +2,7 @@
 type: major
 title: "krsslocal"
 date: 2012
-authors: Frank Osterfeld
+authors: ["Frank Osterfeld"]
 repo_url: https://github.com/owncloud/news
 ---
 

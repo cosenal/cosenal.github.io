@@ -2,7 +2,7 @@
 type: major
 title: "News (ownCloud app)"
 date: 2013
-authors: [Bernhard Posselt, Jan-Christoph Borchardt (Design)]
+authors: ["Bernhard Posselt", "Jan-Christoph Borchardt (Design)"]
 repo_url: https://github.com/owncloud/news
 ---
 

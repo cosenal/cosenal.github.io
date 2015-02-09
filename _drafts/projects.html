@@ -19,7 +19,7 @@ date: 2015-02-03 02:00:00 CET
           <span class="project-title">{{ project.title }}</span>
         </a>
         <span class="project-authors">
-        Co-authors: 
+        Co-author{% if project.authors.size > 1 %}s{% endif %}: 
         {% for author in project.authors %}
           {{ author }}
         {% endfor %}
