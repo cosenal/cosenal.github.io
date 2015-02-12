@@ -16,7 +16,7 @@ date: 2015-02-03 02:00:00 CET
     {% for project in major_collaborations %}
     <li>
         <a href="{{ project.repo_url }} ">
-          <h2 class="project-title">{{ project.title }}</h2>
+          <span class="project-title">{{ project.title }}</span>
         </a>
         <span class="project-content">{{ project.content }}</span> 
         <span class="project-authors">
@@ -35,7 +35,7 @@ date: 2015-02-03 02:00:00 CET
     {% for project in minor_collaborations %}
     <li>
         <a href="{{ project.repo_url }} ">
-          <h2 class="project-title">{{ project.title }}</h2>
+          <span class="project-title">{{ project.title }}</span>
         </a>
         <span class="project-content">{{ project.content }}</span> 
     </li>

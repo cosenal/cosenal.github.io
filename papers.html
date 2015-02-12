@@ -10,11 +10,13 @@ date: 2014-08-18 02:00:00 CET
 {% assign preprints = site.papers | where:"type","preprint" | sort: 'date' | reverse %}
 {% assign journal_pubs = site.papers | where:"type","journal" | sort: 'date' | reverse %}
 
-  <h2>Preprints</h2>
+  <h1>Preprints</h1>
   <ul class="papers">
     {% for paper in preprints %}
       <li>
-        <a class="paper-link" href="{{ paper.url | prepend: site.baseurl }}">{{ paper.title }}</a>
+        <a class="paper-link" href="{{ paper.url | prepend: site.baseurl }}">
+          <h2>{{ paper.title }}</h2>
+        </a>
         <span class="paper-author">{{ paper.authors }}</span>
         <span class="paper-journal">arXiv: {{ paper.arxiv }}</span>
         <span class="paper-date">{{ paper.date | date: "%Y" }}</span>
@@ -22,11 +24,13 @@ date: 2014-08-18 02:00:00 CET
     {% endfor %}
   </ul>
 
-  <h2>Publications</h2>
+  <h1>Publications</h1>
   <ul class="papers">
     {% for paper in journal_pubs %}
       <li>
-        <a class="paper-link" href="{{ paper.url | prepend: site.baseurl }}">{{ paper.title }}</a>
+        <a class="paper-link" href="{{ paper.url | prepend: site.baseurl }}">
+          <h2>{{ paper.title }}</h2>
+        </a>
         <span class="paper-author">{{ paper.authors }}</span>
         <span class="paper-journal">{{ paper.journal }}</span>
         <span class="paper-date">{{ paper.date | date: "%Y" }}</span>
