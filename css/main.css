@@ -193,15 +193,17 @@ a:visited { color: #205caa; }
    font-family:Verdana,Arial,Helvetica,sans-serif; }
 .home .credit small { font-size: 80%; } 
 
-.home #intro-left {
-  float:left;
-  width: 200px;
-}
+@media (min-width: 800px) {
+  .home #intro-left {
+    float:left;
+    width: 200px;
+  }
 
-.home #intro-right {
-  padding-top: 20px;
-  margin-left: 200px;
-}
+  .home #intro-right {
+    margin-left: 200px;
+    padding-top: 10px; 
+  }
+}  
 
 .home #news {
   clear: both;
