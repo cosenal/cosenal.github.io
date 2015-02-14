@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/cosenal
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://cosenal.github.io
+  * I am cosenal (https://keybase.io/cosenal) on keybase.
+  * I have a public key with fingerprint 2316 CFD2 3DE2 1005 356D  2F20 801E 8649 5957 DD61
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.5"
+        },
+        "key": {
+            "fingerprint": "2316cfd23de21005356d2f20801e86495957dd61",
+            "host": "keybase.io",
+            "key_id": "801E86495957DD61",
+            "uid": "f92b23453f8e65a4f836beb729730519",
+            "username": "cosenal"
+        },
+        "merkle_root": {
+            "ctime": 1423957185,
+            "hash": "ace20ec6a5ce52262b4938dff9d3293fd35624083318ddd45583f269a77e664c18b6fd3670dcd3733f73843e85d2c49ce94875242c3b08573f3adfcb2d619382",
+            "seqno": 155832
+        },
+        "service": {
+            "hostname": "cosenal.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1423957345,
+    "expire_in": 157680000,
+    "prev": "ae49bb542d2352f7c5aea31eef194c5adc83957fd9897732789dad4b2720156c",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFVkltsFFUYx3dRC1QpaFI0RkIzgKDWZebcp/pkq1FQg4rGW1zObXaHLnOWmWlh
+rRuNTWq0iYJKkURYg0FCtAQaE6MImOCLggkhxuIDakwh4VK88FKNEc/UEu08zTnn
+d/7f9/9/Z9Ocq3Kz8jc24kNb0fll+aNnRW71j6d4nyOMqjkdfY6shDpKs7+Ir9NO
+h9Ota4InuhCatsgoXVibtE0x7U6vjpPQRJZyC7SAnXp7hmeXgzAq6bgah5mWA6BH
+ZKAAVBp4roshJgoEwGWupxlBPvYxVYp4VrJsknRaVWdSsxgqu2v5e6/wXV2TfM/k
+QeADASDCMGCaYI4CBonQggKfQhd7fgYmOp6yJE2iI17J2l2n4+6KLsbGTHqWaZgR
+HgLQlvAYtg3xpGzvcKmBqyXhWGoMAAEC+ZCpIPAVBD4MlPUEkMsg9JhSCmHMYACI
+zynVhCDpMUEsRKirpIIUwoBChqBmWAGJfKl9xCgGCEgoXIYpDCBXgRTAxmILAesg
+0esjY5vLpEE9W8e9odRZ31lq080VSmFa7hH/BliNTWqkqdjjcppWk47MelqrWn7E
+2aBFcUqqKMJI2cn9f7SeRafHYnNud/TGahjrYpgRmBLm2i8rpHuzsDTyhcAI2JFj
+EFCJuebQ0zrwfGQXSrJMKFA+8ymFgDJfcYUEoMD1MJH/mUW2T16ykklYinjaE2un
+/mr+lqtz+Vm5pmtmZG831zx73pUHvah95uXK808PN59g639uajuYjh0bL3/0dSfX
+g3/zzY+/NfuZ03/AB7d2NLbt7j57/4qu2qrRj48MXWxdXlxx9FILXLBjLGUHBiZu
+G32qtPnFk2+EzRMXXv7+gcOLNny56uRjxz88/tBnb879tYd/PpQsXiM8UxxYel39
+pes773z3YsuZJ1ZeWjL256Z3vrhd5nbte4F/+/CB+vie1spXPw3sP7Tg9cYP5wZ3
+moXNy5seuWPj8KNL5rx/+fStI4X+8b4PTP+2pfSbI2vpPW+PfHciqO8Z3T7/vc65
+5pPzjRt+33Xmydfmq72NLc/V3YW135aRncPJtTcNnfrlvv7wr8FPD981Qe42+Zt3
+H7ww0PrK2LlnW/4B
+=cpq6
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cosenal
+
+==================================================================
