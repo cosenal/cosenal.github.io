@@ -8,6 +8,8 @@ github_username:  cosenal
 wordpress_url: "http://algorithmsforthekitchen.org/blog/"
 strava_id: 4229739
 
+include: [.well-known]
+
 # Build settings
 markdown: kramdown
 permalink: pretty
