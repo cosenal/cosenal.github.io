@@ -14,8 +14,8 @@ date: 2014-08-18 02:00:00 CET
   <ul class="papers">
     {% for paper in preprints %}
       <li>
-        <a class="paper-link" href="{{ paper.url | prepend: site.baseurl }}">
-          <h2>{{ paper.title }}</h2>
+        <a href="{{ paper.url | prepend: site.baseurl }}">
+          <h2 class="paper-title" >{{ paper.title }}</h2>
         </a>
         <span class="paper-author">{{ paper.authors }}</span>
         <span class="paper-journal">arXiv: {{ paper.arxiv }}</span>
@@ -28,8 +28,8 @@ date: 2014-08-18 02:00:00 CET
   <ul class="papers">
     {% for paper in journal_pubs %}
       <li>
-        <a class="paper-link" href="{{ paper.url | prepend: site.baseurl }}">
-          <h2>{{ paper.title }}</h2>
+        <a href="{{ paper.url | prepend: site.baseurl }}">
+          <h2 class="paper-title">{{ paper.title }}</h2>
         </a>
         <span class="paper-author">{{ paper.authors }}</span>
         <span class="paper-journal">{{ paper.journal }}</span>
@@ -39,7 +39,7 @@ date: 2014-08-18 02:00:00 CET
   </ul>
 
   <p>
-    Scite! and comment <a href="https://scirate.com/cosenal/papers">my papers on sciRate!</a>
+    Scite! and comment <a href="https://scirate.com/cosenal/papers" target="_blank">my papers on sciRate!</a>
   </p>
 
 </div>

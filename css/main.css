@@ -590,9 +590,9 @@ a:visited { color: #205caa; }
   margin-bottom: 30px;
 }
 
-.papers .paper-link {
-  font-size: 18px;
-  /*letter-spacing: -1px;*/
+.papers .paper-title {
+  font-size: 20px;
+  font-weight: bold;
   line-height: 1;
 }
 
@@ -623,18 +623,17 @@ a:visited { color: #205caa; }
 }
 
 .projects .project-title {
-  font-size: 18px;
-  /*letter-spacing: -1px;*/
+  font-size: 20px;
+  font-weight: bold;
   line-height: 1;
 }
 
 .projects .project-authors {
-  display: block;
   font-size: 15px;
   font-style: italic;
 }
 
-.projects .project-content {
-  display: block;
-  margin-top: 10px;
+.projects .project-date {
+  font-size: 15px;
+  color: #818181;
 }

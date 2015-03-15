@@ -15,10 +15,13 @@ date: 2015-02-03 02:00:00 CET
   <ul class="projects">
     {% for project in major_collaborations %}
     <li>
-        <a href="{{ project.repo_url }} ">
-          <span class="project-title">{{ project.title }}</span>
+        <a href="{{ project.repo_url }}" target="_blank">
+          <h2 class="project-title">{{ project.title }}</h2>
         </a>
-        <span class="project-content">{{ project.content }}</span> 
+        <span class="project-date">{{ project.date }}</span>
+        
+        {{ project.content }} 
+        
         <span class="project-authors">
         Co-author{% if project.authors.size > 1 %}s{% endif %}: 
         {% for author in project.authors %}
@@ -34,10 +37,12 @@ date: 2015-02-03 02:00:00 CET
   <ul class="projects">
     {% for project in minor_collaborations %}
     <li>
-        <a href="{{ project.repo_url }} ">
-          <span class="project-title">{{ project.title }}</span>
+        <a href="{{ project.repo_url }}" target="_blank">
+          <h2 class="project-title">{{ project.title }}</h2>
         </a>
-        <span class="project-content">{{ project.content }}</span> 
+        
+        {{ project.content }}
+        
     </li>
     {% endfor %}
   </ul>  
