@@ -75,8 +75,8 @@ Season of KDE student developer
 
 _Summer &rsquo;11_
 
-Built a component for the porting of the KDE feed reader Akregator 
-to the storage service Akonadi introduced in KDE 4.
+Built a component for the porting of KDE feed reader Akregator 
+to the storage service Akonadi.
 
 
 Teaching assistant
