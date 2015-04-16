@@ -10,19 +10,21 @@ date: 2014-08-18 02:00:00 CET
 {% assign preprints = site.papers | where:"type","preprint" | sort: 'date' | reverse %}
 {% assign journal_pubs = site.papers | where:"type","journal" | sort: 'date' | reverse %}
 
-  <h1>Preprints</h1>
-  <ul class="papers">
-    {% for paper in preprints %}
-      <li>
-        <a href="{{ paper.url | prepend: site.baseurl }}">
-          <h2 class="paper-title" >{{ paper.title }}</h2>
-        </a>
-        <span class="paper-author">{{ paper.authors }}</span>
-        <span class="paper-journal">arXiv: {{ paper.arxiv }}</span>
-        <span class="paper-date">{{ paper.date | date: "%Y" }}</span>
-      </li>
-    {% endfor %}
-  </ul>
+  {% if preprints.size > 0 %}
+    <h1>Preprints</h1>
+    <ul class="papers">
+      {% for paper in preprints %}
+        <li>
+          <a href="{{ paper.url | prepend: site.baseurl }}">
+            <h2 class="paper-title" >{{ paper.title }}</h2>
+          </a>
+          <span class="paper-author">{{ paper.authors }}</span>
+          <span class="paper-journal">arXiv: {{ paper.arxiv }}</span>
+          <span class="paper-date">{{ paper.date | date: "%Y" }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 
   <h1>Publications</h1>
   <ul class="papers">

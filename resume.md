@@ -2,7 +2,7 @@
 layout: resume
 title: Résumé
 permalink: /resume/
-date: 2015-02-18
+date: 2015-04-15
 author: Alessandro Cosentino
 ---
 
@@ -16,7 +16,7 @@ Ph.D. in Computer Science
 
 _University of Waterloo_ — _January &rsquo;10 – present_
     
-Expected graduation date: May &rsquo;15
+Expected graduation date: July &rsquo;15
 
 Fellow of the **Institute for Quantum Computing**
 
@@ -131,19 +131,21 @@ Professional Service
 ====================
 
 Reviewer for the journals _APS Physical Review A_, _IEEE Transactions on Information Theory_, 
-and for the _XVII Conference on Quantum Information Processing (2014)_.
+and for the conferences _QIP (2014)_ and _ICALP (2015)_.
 
 Technical Skills
 ================
+
+* Programming languages: Python 2/3, Javascript;
+* Web technologies: HTML5, AngularJS framework, CSS;
 * Research tools: LaTeX, MATLAB/Octave and framework CVX for convex programming;
-* Web programming languages: PHP, HTML5, Javascript (with AngularJS framework), CSS;
 * Other technologies: RSS and Atom standards, Git.
 
-<!-- Misc
-====
-* Global Representative of Italy at University of Waterloo.
-* Captain of soccer and futsal intramural team Hopeless Experts for five seasons.
- -->
+Volunteer experience
+====================
+* Global Representative of Italy at University of Waterloo;
+* Captain of UWaterloo Computer Science grad students soccer intramural team for five terms.
+
 [opw]: https://gnome.org/opw/
 [codein]: https://www.google-melange.com/gci/homepage/google/gci2012
 

@@ -243,7 +243,7 @@ a:visited { color: #205caa; }
 
 .post-header h1 {
   font-size: 30px;
-  letter-spacing: -1.75px;
+  letter-spacing: -.50px;
   line-height: 1;
   font-weight: 300;
 }
