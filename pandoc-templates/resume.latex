@@ -101,7 +101,7 @@ $endif$
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 $if(numbersections)$
 $else$
-\setcounter{secnumdepth}{0}
+\setcounter{secnumdepth}{1}
 $endif$
 $if(verbatim-in-note)$
 \VerbatimFootnotes % allows verbatim text in footnotes
@@ -119,9 +119,11 @@ $header-includes$
 $endfor$
 
 $if(title)$
-\title{$title$}
+\title{$author$'s $title$}
 $endif$
-\author{$for(author)$$author$$sep$ \and $endfor$}
+% \author{$for(author)$$author$$sep$ \and $endfor$}
+\author{\href{mailto:cosenal@gmail.com}{cosenal@gmail.com} / 
+  \href{https://cosenal.github.io}{cosenal.github.io}}
 \date{$date$}
 
 \usepackage{fancyhdr}
@@ -129,6 +131,23 @@ $endif$
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 \fancyfoot[CE,CO]{$author$'s $title$ -- Page \thepage}
+
+\usepackage{titlesec}
+\usepackage{tikz}\usetikzlibrary{shapes.misc}
+\newcommand\titlebar{%
+  \tikz[baseline,trim left=3.1cm,trim right=3cm] {
+      \fill [cyan!25] (2.5cm,-1ex) rectangle (\textwidth+3.1cm,2.5ex);
+      % \node [
+      %     fill=cyan!60!white,
+      %     anchor= base east,
+      %     rounded rectangle,
+      %     minimum height=3.5ex] at (3cm,0) {
+      %     \textbf{\thesection}
+      % };
+  }%
+}
+\titleformat{\section}{\large}{\titlebar}{0.1cm}{}
+\renewcommand*{\thesection}{\arabic{section}}
 
 
 \begin{document}

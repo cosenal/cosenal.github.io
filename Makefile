@@ -12,4 +12,4 @@ resume-tex:
 
 # TODO: remove also log, aux files from downloads folder
 clean:
-	rm -f $(DEST)
+	rm -f $(DEST) $(DEST-TEX)

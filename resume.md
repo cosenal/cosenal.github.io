@@ -2,7 +2,7 @@
 layout: resume
 title: Résumé
 permalink: /resume/
-date: 2015-04-15
+date: 2015-06-01
 author: Alessandro Cosentino
 ---
 
@@ -16,7 +16,7 @@ Ph.D. in Computer Science
 
 _University of Waterloo_ — _January &rsquo;10 – present_
     
-Expected graduation date: July &rsquo;15
+Expected graduation date: August &rsquo;15
 
 Fellow of the **Institute for Quantum Computing**
 
