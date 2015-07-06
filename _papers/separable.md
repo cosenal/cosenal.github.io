@@ -5,7 +5,7 @@ title: "Limitations on separable measurements by convex optimization"
 authors: Somshubhro Bandyopadhyay, Alessandro Cosentino, Nathaniel Johnston, Vincent Russo, John Watrous, Nengkun Yu
 date: 2014-08-29
 arxiv: '1408.6981'
-journal: IEEE Transactions on Information Theory (2015)
+journal: IEEE Transactions on Information Theory, 61(6):3593–3604, June 2015
 categories: state-discrimination, selected
 ---
 
