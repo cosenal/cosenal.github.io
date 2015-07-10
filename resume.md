@@ -2,7 +2,7 @@
 layout: resume
 title: Résumé
 permalink: /resume/
-date: 2015-06-01
+date: 2015-07-08
 author: Alessandro Cosentino
 ---
 
@@ -136,10 +136,10 @@ and for the conferences _QIP (2014)_ and _ICALP (2015)_.
 Technical Skills
 ================
 
-* Programming languages: Python 2/3, Javascript;
+* Programming languages: Python, PHP, Javascript;
 * Web technologies: HTML5, AngularJS framework, CSS;
 * Research tools: LaTeX, MATLAB/Octave and framework CVX for convex programming;
-* Other technologies: RSS and Atom standards, Git.
+* Other technologies: RSS and Atom standards, Git, SQL.
 
 Volunteer experience
 ====================
