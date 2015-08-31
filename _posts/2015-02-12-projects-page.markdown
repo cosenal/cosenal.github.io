@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Projects page is up!"
+title:  "Projects page is up"
 date:   2015-02-12
 categories: meta
 ---

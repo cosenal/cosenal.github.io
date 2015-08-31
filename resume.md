@@ -14,9 +14,8 @@ Education
 Ph.D. in Computer Science
 ------------------------
 
-_University of Waterloo_ — _January &rsquo;10 – present_
+_University of Waterloo_ — _January &rsquo;10 – August &rsquo;15_
     
-Expected graduation date: August &rsquo;15
 
 Fellow of the **Institute for Quantum Computing**
 

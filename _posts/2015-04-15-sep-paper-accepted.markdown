@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "paper accepted in IEEE-TIT journal!"
+title: "paper accepted in IEEE-TIT journal"
 date: 2015-04-15
 categories: research
 ---

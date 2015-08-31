@@ -14,6 +14,9 @@ include: [.well-known]
 markdown: kramdown
 permalink: pretty
 
+paginate:    3
+paginate_path: "page:num"
+
 collections:
     papers:
         output: true

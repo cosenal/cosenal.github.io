@@ -11,8 +11,8 @@ layout: default
         title="Picture by Raghu Nayyar" alt="my face">
     </div>
     <div id="intro-right">
-      <p>Ciao! I am a PhD student in Computer Science at the University of Waterloo.</p>
-      <p><a href="{{ "/papers" | prepend: site.baseurl }}">My research</a> is in theoretical computer science, 
+      <p>Ciao! I am a computer scientist.</p>
+      <p>I do <a href="{{ "/papers" | prepend: site.baseurl }}">research</a> in theoretical computer science, 
         more specifically in <em>quantum computing</em>.</p>
       <p>When not doing research, <a href="{{ "/projects" | prepend: site.baseurl }}">I write</a> 
         <em>open source software</em>.</p>
@@ -21,24 +21,39 @@ layout: default
     </div>
   </div>
 
-  {% if site.posts.size > 0 %}
+  {% if paginator.posts.size > 0 %}
   <div id="news">
     <h2>News</h2> 
     
     <ul class="posts">
-      {% for post in site.posts %}
-        <li>
-          <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> • 
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
+    {% for post in paginator.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> • 
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+    
+      <li>
+      <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">Fresher news</a>
+      {% else %}
+        <span class="previous">Fresher news</span>
+      {% endif %}
+      —
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Older news</a>
+      {% else %}
+        <span class="next ">Older news</span>
+      {% endif %}
+      </li>
     </ul>
-   
+
     <p class="rss-subscribe">
       <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
         <span class="fa fa-rss" ></span> Subscribe in a reader</a>
     </p>
   </div>
   {% endif %}
-
 </div>
+
