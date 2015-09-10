@@ -2,6 +2,7 @@
 name: Alessandro Cosentino
 email: 
 description: "The personal website of Alessandro Cosentino."
+author: Alessandro Cosentino
 baseurl: ""
 url: "https://cosenal.github.io"
 github_username:  cosenal
