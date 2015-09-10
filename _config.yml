@@ -1,7 +1,7 @@
 # Site settings
-title: Alessandro Cosentino
+name: Alessandro Cosentino
 email: 
-description: "PhD student"
+description: "The personal website of Alessandro Cosentino."
 baseurl: ""
 url: "https://cosenal.github.io"
 github_username:  cosenal
@@ -25,4 +25,6 @@ collections:
         output: true
         layout: "project"
 
+gems:
+    - jekyll-feed
 
