@@ -3,22 +3,31 @@
   <div class="wrap">
 
     <div class="footer-col-1 column">
+    <!-- <h2 class="footer-heading">Contact</h2> -->
       <ul>
-     <!--    <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li> -->
-        <!-- <li>PhD student</li> -->
-        <li><a href="https://cs.uwaterloo.ca/">David R. Cheriton School of Computer Science</a></li>
-        <li><a href="https://uwaterloo.ca/institute-for-quantum-computing/">Institute for Quantum Computing</a></li>
-        <li><a href="https://uwaterloo.ca/">University of Waterloo</a></li>
+      <li>Email: <a href="http://www.google.com/recaptcha/mailhide/d?k=016S5i6CBkBjmH6P2b3aewUQ==&amp;c=NHAIOLt-NHPvzIgRAvoBGqyYl06lqtBhp9Vj6yBO4Qo=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\075016S5i6CBkBjmH6P2b3aewUQ\75\75\46c\75NHAIOLt-NHPvzIgRAvoBGqyYl06lqtBhp9Vj6yBO4Qo\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">c...</a>@gmail.com</li>
+        <li>IRC: @cosenal on Freenode</li>
       </ul>
     </div>
 
     <div class="footer-col-2 column">
-    <!-- <h2 class="footer-heading">Contact</h2> -->
       <ul>
-        <li>acos<a href="http://www.google.com/recaptcha/mailhide/d?k=01ux8xaBwqoQtLYX0ObuF3ow==&amp;c=FOi-0C3qlUnOusA-j_TMFC-103XSaznT7dGuZh5UKl8=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501ux8xaBwqoQtLYX0ObuF3ow\75\75\46c\75FOi-0C3qlUnOusA-j_TMFC-103XSaznT7dGuZh5UKl8\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">...</a>@cs.uwaterloo.ca</li>
-        <li>office: QNC 4114</li>
-        <li>+1 (519) 888 4567 ext 39060</li>
-        <li>IRC: @cosenal on Freenode</li>
+        {% if site.wordpress_url %}<li>
+          <span class="fa fa-wordpress fa-fw"></span>
+          <a href="{{ site.wordpress_url }}">  
+            <span class="username">My blog</span>
+          </a>
+        </li>{% endif %}
+        <li>
+          <span class="fa fa-twitter fa-fw"></span>
+          <a href="https://twitter.com/cosenalgo">
+            <span class="username">Twitter</span></a>
+        </li>
+        <li>
+          <span class="fa fa-linkedin fa-fw"></span>
+          <a href="https://ca.linkedin.com/in/cosenal">
+            <span class="username">Linkedin</span></a>
+        </li>
       </ul>
     </div>
 
@@ -29,12 +38,6 @@
           <span class="fa fa-github-alt fa-fw"></span>
           <a href="https://github.com/{{ site.github_username }}">
             <span class="username">Github profile</span>
-          </a>
-        </li>{% endif %}
-        {% if site.wordpress_url %}<li>
-          <span class="fa fa-wordpress fa-fw"></span>
-          <a href="{{ site.wordpress_url }}">  
-            <span class="username">My blog</span>
           </a>
         </li>{% endif %}
         <li>
