@@ -2,11 +2,22 @@
 layout: resume
 title: Résumé
 permalink: /resume/
-date: 2015-08-31
+date: 2015-10-05
 author: Alessandro Cosentino
 ---
 
 <!-- WARNING: don't use Liquid things here - it's parsed by pandoc as well   -->
+
+Summary
+=======
+
+Graduated in August 2015 with a PhD in Computer Science, I am looking for a job in the tech industry.
+
+Thanks to a specialization in quantum information, I have acquired strong mathematical (especially, linear algebra and convex optimization) and analytical skills, which I am seeking to apply to a job in the data science field.
+
+My background is fully in computer science, with a particular focus on theoretical fundamentals (algorithms and data structures) and machine learning.
+
+I also have hands-on experience with full-stack web development obtained through involvement in different open source projects.
 
 Education
 =========
@@ -42,15 +53,18 @@ _University of Pisa_ — _July &rsquo;06_
 Final score: 110/110 _cum laude_
 
 
-Selected Articles
+Research Experience
 =================
 
-- **Limitations on separable measurements by convex optimization, 2014**
-- **Small sets of locally indistinguishable orthogonal maximally entangled states, 2014**
-- **PPT-indistinguishable states via semidefinite programming, 2012**
+_Research topics_: quantum information theory, quantum computational complexity.
 
-Used _convex programming_ to answer several fundamental open questions in 
-the topic of _quantum state discrimination_. 
+_Skills acquired_: advanced linear algebra; convex optimization; strong computer science fundamentals.
+
+_Selected journal publications_:
+
+- **Limitations on separable measurements by convex optimization**, 2014
+- **Small sets of locally indistinguishable orthogonal maximally entangled states**, 2014
+- **PPT-indistinguishable states via semidefinite programming**, 2012
 
 (Complete list of publications available at 
 [https://cosenal.github.io/papers/](https://cosenal.github.io/papers/))
@@ -135,9 +149,12 @@ and for the conferences _QIP (2014)_ and _ICALP (2015)_.
 Technical Skills
 ================
 
-* Programming languages: Python, PHP, Javascript;
+My languages of choice are **Python** and **Javascript** for production code, and **MATLAB/Octave** for prototyping.
+
+* Programming languages: _Main_: Python; _Familiar with_: PHP, Javascript; 
+  _Prior experience_: C++;
 * Web technologies: HTML5, AngularJS framework, CSS;
-* Research tools: LaTeX, MATLAB/Octave and framework CVX for convex programming;
+* Research tools: LaTeX, MATLAB/Octave (_fluent_) and framework CVX for convex programming;
 * Other technologies: RSS and Atom standards, Git, SQL.
 
 Volunteer experience

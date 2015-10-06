@@ -533,6 +533,7 @@ a:visited { color: #205caa; }
 
 #cv p {
   margin-bottom: 10px;
+  font-size: 12pt;
 }
 
 #cv ul {
@@ -542,6 +543,7 @@ a:visited { color: #205caa; }
 
 #cv li {
   margin-left: 20px;
+  font-size: 12pt;
 }
 
 #cv a {
@@ -571,9 +573,9 @@ a:visited { color: #205caa; }
 }
 
 #cv blockquote p:after, blockquote p:before {
-    color: #818181;
-    font-size: 25px;
-    /*position: absolute;*/
+  color: #818181;
+  font-size: 25px;
+  /*position: absolute;*/
 }
 
 #cv-footer {
@@ -581,6 +583,9 @@ a:visited { color: #205caa; }
   color: #818181;
 }
 
+#cv-header {
+  margin-bottom: 10px;
+}
 
 /* Papers */
 

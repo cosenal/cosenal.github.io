@@ -2,12 +2,16 @@
 layout: default
 ---
 
+<div id="cv-header">
+    <p><a href="{{ "/downloads/resume-single.pdf" | prepend: site.baseurl }}">
+            <span class="fa fa-file-pdf-o"></span> Download Pdf version</a></p>
+</div>
+
 <div id="cv">
     {{ content }}
 </div>
 
 <div id="cv-footer">
-    <p><a href="{{ "/downloads/resume.pdf" | prepend: site.baseurl }}">
-            <span class="fa fa-file-pdf-o"></span> Pdf version</a></p>
     <p>Last updated on {{ page.date }}.</p>
 </div>
+
