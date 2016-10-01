@@ -1,7 +1,7 @@
 ---
 type: major
 title: "krsslocal"
-date: 2011
+date: 2011-01-01
 authors: ["Frank Osterfeld"]
 repo_url: http://quickgit.kde.org/?p=scratch%2Fcosentino%2Fkrsslocal.git
 ---

@@ -1,7 +1,7 @@
 ---
 type: minor
 title: QETLAB
-date: 2015
+date: 2015-01-01
 authors: ["Nathaniel Johnston"]
 repo_url: https://github.com/nathanieljohnston/QETLAB
 ---
