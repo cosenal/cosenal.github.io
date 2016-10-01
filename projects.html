@@ -18,7 +18,7 @@ date: 2015-02-03 02:00:00 CET
         <a href="{{ project.repo_url }}" target="_blank">
           <h2 class="project-title">{{ project.title }}</h2>
         </a>
-        <span class="project-date">{{ project.date }}</span>
+        <span class="project-date">{{ project.date | date: '%Y' }}</span>
         
         {{ project.content }} 
         
