@@ -8,16 +8,17 @@ author: Alessandro Cosentino
 
 <!-- WARNING: don't use Liquid things here - it's parsed by pandoc as well   -->
 
-Summary
+Current Job
 =======
 
-Graduated in August 2015 with a PhD in Computer Science, I am looking for a job in the tech industry.
+Data Engineer
+---------------------------------------
+[_Bending Spoons_](http://bendingspoons.com/) — _January &rsquo;16_ – Present
 
-Thanks to a specialization in quantum information, I have acquired strong mathematical (especially, linear algebra and convex optimization) and analytical skills, which I am seeking to apply to a job in the data science field.
+- Developing a tool for spotting market opportunities in the Apple iOS app store.
+- Building, deploying in production, and monitoring ETL pipelines that fetch and process terabytes of data each day, 
+  for App Store Optimization.
 
-My background is fully in computer science, with a particular focus on theoretical fundamentals (algorithms and data structures) and machine learning.
-
-I also have hands-on experience with full-stack web development obtained through involvement in different open source projects.
 
 Education
 =========
@@ -53,22 +54,6 @@ _University of Pisa_ — _July &rsquo;06_
 Final score: 110/110 _cum laude_
 
 
-Research Experience
-=================
-
-_Research topics_: quantum information theory, quantum computational complexity.
-
-_Skills acquired_: advanced linear algebra; convex optimization; strong computer science fundamentals.
-
-_Selected journal publications_:
-
-- **Limitations on separable measurements by convex optimization**, 2014
-- **Small sets of locally indistinguishable orthogonal maximally entangled states**, 2014
-- **PPT-indistinguishable states via semidefinite programming**, 2012
-
-(Complete list of publications available at 
-[https://cosenal.github.io/papers/](https://cosenal.github.io/papers/))
-
 
 Work Experience
 ===============
@@ -101,6 +86,25 @@ Courses: Theory of Quantum Information (graduate), Data Structures and Data Mana
 Algorithms, Introduction to Computer Science.
 
 
+
+Research Experience
+=================
+
+_Research topics_: quantum information theory, quantum computational complexity.
+
+_Skills acquired_: advanced linear algebra; convex optimization; strong computer science fundamentals.
+
+_Selected journal publications_:
+
+- **Limitations on separable measurements by convex optimization**, 2014
+- **Small sets of locally indistinguishable orthogonal maximally entangled states**, 2014
+- **PPT-indistinguishable states via semidefinite programming**, 2012
+
+(Complete list of publications available at 
+[https://cosenal.github.io/papers/](https://cosenal.github.io/papers/))
+
+
+
 Other Experience
 ================
 
@@ -125,6 +129,21 @@ Assisted students, faculty and staff with computer related problems.
 _KDE_ — _Winter &rsquo;12_
 
 
+
+
+Technical Skills
+================
+
+My languages of choice is **Python** for production code and **MATLAB/Octave** for prototyping.
+
+* Programming languages: _Main_: Python; _Familiar with_: PHP, Javascript; 
+  _Prior experience_: Go, C++;
+* Data Engineering: Celery, AirFlow, Apache Spark;
+* Data Storage: Redis, PostgreSQL, Google BigQuery; 
+* Web technologies: HTML5, AngularJS framework, CSS;
+* Research tools: LaTeX, MATLAB/Octave, and the framework CVX for convex programming;
+* Other technologies: Heroku toolbox, Git, Bash, RSS and Atom standards.
+
 Exchange programs
 =================
 
@@ -145,22 +164,6 @@ Professional Service
 
 Reviewer for the journals _APS Physical Review A_, _IEEE Transactions on Information Theory_, 
 and for the conferences _QIP (2014)_ and _ICALP (2015)_.
-
-Technical Skills
-================
-
-My languages of choice are **Python** and **Javascript** for production code, and **MATLAB/Octave** for prototyping.
-
-* Programming languages: _Main_: Python; _Familiar with_: PHP, Javascript; 
-  _Prior experience_: C++;
-* Web technologies: HTML5, AngularJS framework, CSS;
-* Research tools: LaTeX, MATLAB/Octave (_fluent_) and framework CVX for convex programming;
-* Other technologies: RSS and Atom standards, Git, SQL.
-
-Volunteer experience
-====================
-* Global Representative of Italy at University of Waterloo;
-* Captain of UWaterloo Computer Science grad students soccer intramural team for five terms.
 
 [opw]: https://gnome.org/opw/
 [codein]: https://www.google-melange.com/gci/homepage/google/gci2012
