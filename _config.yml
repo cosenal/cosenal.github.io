@@ -27,5 +27,6 @@ collections:
         layout: "project"
 
 gems:
-    - jekyll-feed
+  - jekyll-feed
+  - jemoji
 
