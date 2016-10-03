@@ -6,7 +6,7 @@ author: Alessandro Cosentino
 baseurl: ""
 url: "https://cosenal.github.io"
 github_username:  cosenal
-wordpress_url: "http://algorithmsforthekitchen.org/blog/"
+#wordpress_url: "http://algorithmsforthekitchen.org/blog/"
 strava_id: 4229739
 
 include: [.well-known]
