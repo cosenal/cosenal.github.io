@@ -134,15 +134,12 @@ _KDE_ — _Winter &rsquo;12_
 Technical Skills
 ================
 
-My languages of choice is **Python** for production code and **MATLAB/Octave** for prototyping.
-
 * Programming languages: _Main_: Python; _Familiar with_: PHP, Javascript; 
-  _Prior experience_: Go, C++;
-* Data Engineering: Celery, AirFlow, Apache Spark;
-* Data Storage: Redis, PostgreSQL, Google BigQuery; 
-* Web technologies: HTML5, AngularJS framework, CSS;
-* Research tools: LaTeX, MATLAB/Octave, and the framework CVX for convex programming;
-* Other technologies: Heroku toolbox, Git, Bash, RSS and Atom standards.
+  _Prior experience_: OCaml, Go, C++;
+* Data Engineering: Celery, AirFlow, Apache Spark, Redis, PostgreSQL, Google BigQuery;
+* Data Analysis: R, MATLAB/Octave, pandas, scikit-learn, MS Excel
+* Web technologies: Flask, HTML5, AngularJS framework, CSS;
+* Other technologies: Heroku toolbox, Git, Bash, RSS and Atom standards, LaTeX.
 
 Exchange programs
 =================
