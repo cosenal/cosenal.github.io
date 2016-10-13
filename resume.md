@@ -2,7 +2,7 @@
 layout: resume
 title: Résumé
 permalink: /resume/
-date: 2015-10-05
+date: 2016-10-13
 author: Alessandro Cosentino
 ---
 
@@ -15,9 +15,7 @@ Data Engineer
 ---------------------------------------
 [_Bending Spoons_](http://bendingspoons.com/) — _January &rsquo;16_ – Present
 
-- Developing a tool for spotting market opportunities in the Apple iOS app store.
-- Building, deploying in production, and monitoring ETL pipelines that fetch and process terabytes of data each day, 
-  for App Store Optimization.
+Working for an Italian startup, developing an analytical tool for estimating financial data of the mobile apps market through fetching and processing of terabytes of App Store data.
 
 
 Education
