@@ -33,3 +33,6 @@ _site/
 *.vrb
 *.xdy
 *.tdo
+
+### macOS ###
+*.DS_Store
