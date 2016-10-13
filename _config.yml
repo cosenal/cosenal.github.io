@@ -15,7 +15,7 @@ include: [.well-known]
 markdown: kramdown
 permalink: pretty
 
-paginate:    2
+paginate:    4
 paginate_path: "page:num"
 
 collections:

@@ -14,7 +14,7 @@ layout: default
       <p>:computer: Computer scientist</p>
       <p><img class="emoji" title=":bendingspoons:" alt=":bendingspoons:" src="{{ '/images/bendingspoons.png' | prepend: site.baseurl }}" height="20" width="20" align="absmiddle"> <span style="font-weight:bold">Data Engineer</span> at <a href='http://bendingspoons.com/'>Bending Spoons</a></p>
       <p>:mortar_board: PhD in Quantum Computing from the University of Waterloo</p>
-      <p>:school: MMath in Computer Science from the University of Pisa</p>
+      <p>:octocat: Open source software advocate</p>
       <p>:bicyclist: Cyclist</p>
     </div>
   </div>
@@ -26,7 +26,7 @@ layout: default
     <ul class="posts">
     {% for post in paginator.posts %}
       <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> • 
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> 
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
