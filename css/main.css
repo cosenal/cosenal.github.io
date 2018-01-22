@@ -590,6 +590,9 @@ a:visited { color: #205caa; }
   margin-bottom: 10px;
 }
 
+#flair {
+  text-align: center;
+}
 /* Papers */
 
 .papers { list-style-type: none; }

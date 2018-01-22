@@ -13,9 +13,11 @@ Current Job
 
 Data Engineer
 ---------------------------------------
-[_Bending Spoons_](http://bendingspoons.com/) — _January &rsquo;16_ – Present
+[_Yieldify_](https://www.yieldify.com/) — _January &rsquo;17_ – current
 
-Working for an Italian startup, developing an analytical tool for estimating financial data of the mobile apps market through fetching and processing of terabytes of App Store data.
+* Worked on building ETL and framework for A/B testing of marketing campaigns.
+* Led project to bring client configuration data in the same data warehouse as user event data
+(Pipeline built on AWS with an event-driven serverless architecture).
 
 
 Education
@@ -55,6 +57,14 @@ Final score: 110/110 _cum laude_
 
 Work Experience
 ===============
+
+Data Engineer
+---------------------------------------
+[_Bending Spoons_](http://bendingspoons.com/) — _January &rsquo;16_ – _December &rsquo;16_
+
+Worked for an Italian startup, developing a tool for analyzing financial data 
+of the mobile apps market through fetching and processing of terabytes of App Store data.
+
 
 Google Summer of Code student developer
 ---------------------------------------
@@ -127,17 +137,14 @@ Assisted students, faculty and staff with computer related problems.
 _KDE_ — _Winter &rsquo;12_
 
 
-
-
-Technical Skills
+Skills
 ================
 
-* Programming languages: _Main_: Python; _Familiar with_: PHP, Javascript; 
-  _Prior experience_: OCaml, Go, C++;
-* Data Engineering: Celery, AirFlow, Apache Spark, Redis, PostgreSQL, Google BigQuery;
-* Data Analysis: R, MATLAB/Octave, pandas, scikit-learn, MS Excel
-* Web technologies: Flask, HTML5, AngularJS framework, CSS;
-* Other technologies: Heroku toolbox, Git, Bash, RSS and Atom standards, LaTeX.
+* Programming Languages: _Main_: Python ($5+$ years exp.); _Familiar with_: Javascript/Typescript; 
+_Prior experience_: C++, Go, OCaml, Java
+* Data Engineering: Apache Airflow, Apache Spark, AWS Lambda, Amazon SNS/SQS, Redis
+* Data Warehousing: Google BigQuery, Amazon Redshift, AWS DynamoDB, PostgreSQL
+* Data Reporting/Visualization: Grafana, Looker, Redash
 
 Exchange programs
 =================
