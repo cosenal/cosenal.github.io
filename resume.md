@@ -2,7 +2,7 @@
 layout: resume
 title: Résumé
 permalink: /resume/
-date: 2016-10-13
+date: 2018-01-22
 author: Alessandro Cosentino
 ---
 
@@ -140,11 +140,11 @@ _KDE_ — _Winter &rsquo;12_
 Skills
 ================
 
-* Programming Languages: _Main_: Python ($5+$ years exp.); _Familiar with_: Javascript/Typescript; 
+* **Programming Languages**: _Main_: Python ($5+$ years exp.); _Familiar with_: Javascript/Typescript; 
 _Prior experience_: C++, Go, OCaml, Java
-* Data Engineering: Apache Airflow, Apache Spark, AWS Lambda, Amazon SNS/SQS, Redis
-* Data Warehousing: Google BigQuery, Amazon Redshift, AWS DynamoDB, PostgreSQL
-* Data Reporting/Visualization: Grafana, Looker, Redash
+* **Data Engineering**: Apache Airflow, Apache Spark, AWS Lambda, Amazon SNS/SQS, Redis
+* **Data Warehousing**: Google BigQuery, Amazon Redshift, AWS DynamoDB, PostgreSQL
+* **Data Reporting/Visualization**: Grafana, Looker, Redash
 
 Exchange programs
 =================
