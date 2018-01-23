@@ -15,7 +15,7 @@ Data Engineer
 ---------------------------------------
 [_Yieldify_](https://www.yieldify.com/) — _January &rsquo;17_ – current
 
-* Worked on building ETL and framework for A/B testing of marketing campaigns.
+* Worked on building ETL and backend API framework for A/B testing of marketing campaigns.
 * Led project to bring client configuration data in the same data warehouse as user event data
 (Pipeline built on AWS with an event-driven serverless architecture).
 
