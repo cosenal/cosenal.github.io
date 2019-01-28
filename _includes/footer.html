@@ -5,18 +5,45 @@
     <div class="footer-col-1 column">
     <!-- <h2 class="footer-heading">Contact</h2> -->
       <ul>
-      <li>Email: <a href="http://www.google.com/recaptcha/mailhide/d?k=016S5i6CBkBjmH6P2b3aewUQ==&amp;c=NHAIOLt-NHPvzIgRAvoBGqyYl06lqtBhp9Vj6yBO4Qo=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\075016S5i6CBkBjmH6P2b3aewUQ\75\75\46c\75NHAIOLt-NHPvzIgRAvoBGqyYl06lqtBhp9Vj6yBO4Qo\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">c...</a>@gmail.com</li>
+        <li>Email: <a href="http://www.google.com/recaptcha/mailhide/d?k=016S5i6CBkBjmH6P2b3aewUQ==&amp;c=NHAIOLt-NHPvzIgRAvoBGqyYl06lqtBhp9Vj6yBO4Qo=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\075016S5i6CBkBjmH6P2b3aewUQ\75\75\46c\75NHAIOLt-NHPvzIgRAvoBGqyYl06lqtBhp9Vj6yBO4Qo\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">c...</a>@gmail.com
+        </li>
+        <li>
+            <span class="fa fa-key fa-fw"></span>
+            <a href="https://keybase.io/cosenal">
+              <span class="username">Keybase.io</span></a>
+        </li>
       </ul>
     </div>
 
     <div class="footer-col-2 column">
       <ul>
-        {% if site.github_username %}<li>
+        {% if site.github_username %}
+        <li>
           <span class="fa fa-github-alt fa-fw"></span>
           <a href="https://github.com/{{ site.github_username }}">
-            <span class="username">Github profile</span>
+            <span class="username">Github</span>
           </a>
-        </li>{% endif %}
+        </li>
+        {% endif %}
+        <li>
+          <span class="fa fa-stack-exchange fa-fw"></span>
+          <a href="http://stackexchange.com/users/437474/alessandro-cosentino">
+            <span class="username">StackExchange</span></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-col-3 column">
+    <!-- <h2 class="footer-heading">Links</h2> -->
+      <ul>
+        {% if site.wordpress_url %}
+        <li>
+          <span class="fa fa-wordpress fa-fw"></span>
+          <a href="{{ site.wordpress_url }}">  
+            <span class="username">My blog</span>
+          </a>
+        </li>
+        {% endif %}  
         <li>
           <span class="fa fa-twitter fa-fw"></span>
           <a href="https://twitter.com/cosenalgo">
@@ -26,28 +53,6 @@
           <span class="fa fa-linkedin fa-fw"></span>
           <a href="https://ca.linkedin.com/in/cosenal">
             <span class="username">Linkedin</span></a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="footer-col-3 column">
-    <!-- <h2 class="footer-heading">Links</h2> -->
-      <ul>
-        {% if site.wordpress_url %}<li>
-          <span class="fa fa-wordpress fa-fw"></span>
-          <a href="{{ site.wordpress_url }}">  
-            <span class="username">My blog</span>
-          </a>
-        </li>{% endif %}        
-        <li>
-          <span class="fa fa-stack-exchange fa-fw"></span>
-          <a href="http://stackexchange.com/users/437474/alessandro-cosentino">
-            <span class="username">StackExchange profile</span></a>
-        </li>
-        <li>
-          <span class="fa fa-key fa-fw"></span>
-          <a href="https://keybase.io/cosenal">
-            <span class="username">Keybase.io</span></a>
         </li>
       </ul>
     </div>

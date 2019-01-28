@@ -11,13 +11,9 @@ author: Alessandro Cosentino
 Current Job
 =======
 
-Data Engineer
+Software Engineer
 ---------------------------------------
-[_Yieldify_](https://www.yieldify.com/) — _January &rsquo;17_ – current
-
-* Worked on building ETL and backend API framework for A/B testing of marketing campaigns.
-* Led project to bring client configuration data in the same data warehouse as user event data
-(Pipeline built on AWS with an event-driven serverless architecture).
+[_Babylon Health_](https://www.babylonhealth.com) — _August &rsquo;18_ – current
 
 
 Education
@@ -60,10 +56,20 @@ Work Experience
 
 Data Engineer
 ---------------------------------------
+[_Yieldify_](https://www.yieldify.com/) — _January &rsquo;17_ – _August &rsquo;18_
+
+* Worked on building ETL and backend API framework for A/B testing of marketing campaigns.
+* Led project to bring client configuration data in the same data warehouse as user event data
+(Pipeline built on AWS with an event-driven serverless architecture).
+
+
+Data Engineer
+---------------------------------------
 [_Bending Spoons_](http://bendingspoons.com/) — _January &rsquo;16_ – _December &rsquo;16_
 
-Worked for an Italian startup, developing a tool for analyzing financial data 
-of the mobile apps market through fetching and processing of terabytes of App Store data.
+Worked in the data science team at the early stage of the startup, 
+developing an in-house tool for analyzing financial data 
+of the mobile apps market through fetching and processing terabytes of Apple App Store data.
 
 
 Google Summer of Code student developer

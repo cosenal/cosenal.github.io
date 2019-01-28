@@ -648,3 +648,7 @@ a:visited { color: #205caa; }
   font-size: 15px;
   color: #818181;
 }
+
+img.emoji {
+  vertical-align: middle;
+}
