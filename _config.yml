@@ -1,5 +1,6 @@
 # Site settings
 name: Alessandro Cosentino
+title: Alessandro Cosentino
 email: 
 description: "The personal website of Alessandro Cosentino."
 author: Alessandro Cosentino
@@ -26,7 +27,6 @@ collections:
         output: true
         layout: "project"
 
-gems:
+plugins:
   - jekyll-feed
   - jemoji
-
