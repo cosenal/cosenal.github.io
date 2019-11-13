@@ -20,7 +20,10 @@
         {% assign this_page = page %}
         {% for page in site.pages %}
           {% if page.title %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{% if page.title == this_page.title %}<span class="page-selected">{% endif %}{{ page.title }}{% if page.title == this_page.title %}</span>{% endif %}</a>
+            {% capture url_to_use %}{{ page.url" }}{% endcapture %}
+            <a class="page-link" href="{{ url_to_use }}">
+              {{ page.title }}
+            </a>
           {% endif %}
         {% endfor %}
       </div>

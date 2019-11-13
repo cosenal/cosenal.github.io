@@ -33,7 +33,9 @@ a:visited { color: #205caa; }
   zoom: 1;
 }
 
-
+.external_frame {
+  min-height: 400px;
+}
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
@@ -152,6 +154,7 @@ a:visited { color: #205caa; }
 /* ----------------------------------------------------------*/
 
 .home div { margin-bottom: 25px; }
+.home iframe { margin-bottom: 25px; }
 
 .home p { margin-bottom: 10px; }
 
@@ -493,160 +496,8 @@ a:visited { color: #205caa; }
   font-size: 15px;
 }
 
-/* Resume */
-
-@media screen and (min-width: 600px) {
-
-  #cv h1:before {
-    margin: 0 10px 0 0;
-    width: 30px;
-    height: 10px;
-    display: inline-block;
-    content: "";
-    background-color: #39C;
-  }
-
-  #cv h2 {
-    margin-left: 40px;
-  }
-
-  #cv p { 
-    margin-left: 40px;
-  }
-
-  #cv ul {
-    margin-left: 40px;
-  }
-
-}
-
-#cv h1 {
-  font-size: 20px;
-  color: #39C;
-  margin-bottom: 10px;
-  margin-top: 5px;
-}
-
-#cv h2 {
-  font-size: 20px;
-  font-weight: bold;
-  border-left: 0;
-  margin-bottom: 10px;
-}
-
-#cv p {
-  margin-bottom: 10px;
-  font-size: 12pt;
-}
-
-#cv ul {
-  margin-bottom: 10px;
-}
-
-
-#cv li {
-  margin-left: 20px;
-  font-size: 12pt;
-}
-
-#cv a {
-  color: #000;
-}
-
-#cv blockquote p {  
-  padding: 5px 15px;
-  border-left: 5px solid #CCC;
-  margin-bottom: 24px;
-  background: none repeat scroll 0% 0% #EEE;
-  position: relative; */
-  font-style: italic;
-  line-height: 20px;
-}
-
-#cv blockquote p:before {
-  top: 0px;
-  left: 10px;
-  content: "“";
-}
-
-#cv blockquote p:after {
-  bottom: 0px;
-  right: 10px;
-  content: "”";
-}
-
-#cv blockquote p:after, blockquote p:before {
-  color: #818181;
-  font-size: 25px;
-  /*position: absolute;*/
-}
-
-#cv-footer {
-  margin-top: 30px;
-  color: #818181;
-}
-
-#cv-header {
-  margin-bottom: 10px;
-}
-
 #flair {
   text-align: center;
-}
-/* Papers */
-
-.papers { list-style-type: none; }
-
-.papers li { 
-  margin-bottom: 30px;
-}
-
-.papers .paper-title {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 1;
-}
-
-.papers .paper-author {
-  display: block;
-  font-size: 15px;
-}
-
-.papers .paper-date {
-  display: block;
-  font-size: 15px;
-  color: #818181;
-}
-
-.papers .paper-journal {
-  display: block;
-  font-size: 15px;
-  font-style: italic;
-}
-
-
-/* Projects */
-
-.projects { list-style-type: none; }
-
-.projects li {
-  margin-bottom: 30px; 
-}
-
-.projects .project-title {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 1;
-}
-
-.projects .project-authors {
-  font-size: 15px;
-  font-style: italic;
-}
-
-.projects .project-date {
-  font-size: 15px;
-  color: #818181;
 }
 
 img.emoji {
