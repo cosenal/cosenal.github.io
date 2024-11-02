@@ -96,10 +96,10 @@ a:visited { color: #205caa; }
 
 .footer-col-1 {
   width: 350px; /*fallback*/
-  width: -webkit-calc(43.75% - 10px);
-  width: -moz-calc(43.75% - 10px);
-  width: -o-calc(43.75% - 10px);
-  width: calc(43.75% - 10px);
+  width: -webkit-calc(40.75% - 10px);
+  width: -moz-calc(40.75% - 10px);
+  width: -o-calc(40.75% - 10px);
+  width: calc(40.75% - 10px);
   margin-right: 10px
 }
 .footer-col-2 {
@@ -112,10 +112,10 @@ a:visited { color: #205caa; }
 }
 .footer-col-3 {
   width: 200px; /*fallback*/
-  width: -webkit-calc(25%);
-  width: -moz-calc(25%);
-  width: -o-calc(25%);
-  width: calc(25%);
+  width: -webkit-calc(28%);
+  width: -moz-calc(28%);
+  width: -o-calc(28%);
+  width: calc(28%);
 }
 
 .site-footer ul { list-style: none; }
@@ -125,15 +125,13 @@ a:visited { color: #205caa; }
   font-size: 15px;
   letter-spacing: -.3px;
   color: #828282;
+  text-align: left;
 }
 
-.github-icon-svg,
-.twitter-icon-svg {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  position: relative;
-  top: 3px;
+.site-footer i {
+  width: 20px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .site-footer .about {

@@ -10,7 +10,8 @@
           <a
             href="#"
             data-contact="Y29zZW5hbEBnbWFpbC5jb20="
-            onfocus="this.href = 'mailto:' + atob(this.dataset.contact)"
+            data-subj="SSBhbSBub3QgYSBib3Q="
+            onfocus="this.href = 'mailto:' + atob(this.dataset.contact) + '?subject=' + atob(this.dataset.subj || '')"
             >
             Email
           </a>
