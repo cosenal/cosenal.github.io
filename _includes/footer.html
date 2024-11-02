@@ -5,7 +5,15 @@
     <div class="footer-col-1 column">
     <!-- <h2 class="footer-heading">Contact</h2> -->
       <ul>
-        <li>Email: <a href="http://cap.owncloud.io/email.html" onclick="window.open('http://cap.owncloud.io/email.html', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">c...</a>@gmail.com
+        <li>
+          <i class="fa-regular fa-envelope"></i>
+          <a
+            href="#"
+            data-contact="Y29zZW5hbEBnbWFpbC5jb20="
+            onfocus="this.href = 'mailto:' + atob(this.dataset.contact)"
+            >
+            Email
+          </a>
         </li>
         <li>
           <i class="fa fa-key"></i>
@@ -20,13 +28,14 @@
       <ul>
         {% if site.github_username %}
         <li>
+          <i class="fa-brands fa-github-alt"></i>
           <a href="https://github.com/{{ site.github_username }}">
             <span class="username">Github</span>
           </a>
         </li>
         {% endif %}
         <li>
-          <span class="fa fa-stack-exchange fa-fw"></span>
+          <i class="fa fa-stack-exchange fa-fw"></i>
           <a href="https://stackexchange.com/users/437474/alessandro-cosentino?tab=accounts">
             <span class="username">StackExchange</span></a>
         </li>
@@ -38,7 +47,7 @@
       <ul>
         {% if site.wordpress_url %}
         <li>
-          <span class="fa fa-wordpress fa-fw"></span>
+          <i class="fa fa-wordpress fa-fw"></i>
           <a href="{{ site.wordpress_url }}">  
             <span class="username">My blog</span>
           </a>
@@ -50,7 +59,7 @@
             <span class="username">Mastodon</span></a>
         </li>
         <li>
-          <span class="fa fa-linkedin fa-fw"></span>
+          <i class="fa fa-linkedin fa-fw"></i>
           <a href="https://ca.linkedin.com/in/cosenal">
             <span class="username">Linkedin</span></a>
         </li>
