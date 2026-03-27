@@ -26,6 +26,16 @@ collections:
     projects:
         output: true
         layout: "project"
+    talks:
+        output: true
+        permalink: /talks/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
 
 plugins:
   - jekyll-feed

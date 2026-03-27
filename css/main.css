@@ -337,6 +337,45 @@ a:visited { color: #205caa; }
 
 .post pre.terminal code { background-color: #333; }
 
+/* Talk styles */
+/* ----------------------------------------------------------*/
+
+.talk-links {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.talk-links {
+  margin: 0 0 25px;
+}
+
+.talk-links li {
+  margin-bottom: 12px;
+}
+
+.talk-link {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 6px 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 999px;
+  color: #444;
+  text-decoration: none;
+}
+
+.talk-link:hover {
+  color: #000;
+  border-color: #999;
+  text-decoration: none;
+}
+
+.talk-meta {
+  color: #818181;
+  font-size: 15px;
+  margin-top: 4px;
+}
+
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
 

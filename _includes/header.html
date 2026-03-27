@@ -20,8 +20,7 @@
         {% assign this_page = page %}
         {% for page in site.pages %}
           {% if page.title %}
-            {% capture url_to_use %}{{ page.url" }}{% endcapture %}
-            <a class="page-link" href="{{ url_to_use }}">
+            <a class="page-link{% if page.url == this_page.url %} page-selected{% endif %}" href="{{ page.url | relative_url }}">
               {{ page.title }}
             </a>
           {% endif %}

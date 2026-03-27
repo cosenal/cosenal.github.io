@@ -1,0 +1,53 @@
+---
+layout: default
+---
+{% assign slides_href = nil %}
+{% assign slides_download_name = page.slug | append: '.pdf' %}
+{% if page.slides_url == false %}
+{% elsif page.slides_url %}
+  {% assign slides_href = page.slides_url %}
+{% else %}
+  {% assign slides_href = '/talks/' | append: page.slug | append: '/slides.pdf' %}
+{% endif %}
+<div class="post">
+
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+    {% if page.event or page.location or page.date %}
+    <p class="meta">
+      {% if page.event %}{{ page.event }}{% endif %}
+      {% if page.event and page.location %} · {% endif %}
+      {% if page.location %}{{ page.location }}{% endif %}
+      {% if page.date %}{% if page.event or page.location %} · {% endif %}{{ page.date | date: "%B %-d, %Y" }}{% endif %}
+    </p>
+    {% endif %}
+  </header>
+
+  {% if slides_href or page.video_url %}
+  <ul class="talk-links">
+    {% if slides_href %}
+    <li>
+      {% if slides_href contains '://' %}
+      <a class="talk-link" href="{{ slides_href }}">Slides</a>
+      {% else %}
+      <a class="talk-link" href="{{ slides_href | relative_url }}" download="{{ slides_download_name }}">Slides</a>
+      {% endif %}
+    </li>
+    {% endif %}
+    {% if page.video_url %}
+    <li>
+      {% if page.video_url contains '://' %}
+      <a class="talk-link" href="{{ page.video_url }}">YouTube</a>
+      {% else %}
+      <a class="talk-link" href="{{ page.video_url | relative_url }}">YouTube</a>
+      {% endif %}
+    </li>
+    {% endif %}
+  </ul>
+  {% endif %}
+
+  <article class="post-content">
+  {{ content }}
+  </article>
+
+</div>
